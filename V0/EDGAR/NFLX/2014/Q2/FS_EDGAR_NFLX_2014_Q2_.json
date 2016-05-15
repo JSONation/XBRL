@@ -1,0 +1,2237 @@
+{
+  "SchemaURI": "urn:///JSONation/XBRL/APIoverGitHub/V0/Schema/",
+  "ReferenceURI": "https://www.sec.gov/edgar/searchedgar/companysearch.html",
+  "JSONData": {
+    "SourceType": "XBRL",
+    "RegistrantName": "NETFLIX INC",
+    "FiscalYear": "2014",
+    "FiscalYearStartDate": "",
+    "FiscalYearEndDate": "2014-12-31",
+    "FiscalPeriod": "Q2",
+    "FiscalPeriodEndDate": "2014-06-30",
+    "FilingDate": "",
+    "FinancialStatement ": {
+      "FilingRules": "EDGAR",
+      "AccountingStandards": "",
+      "Identifier": "0001065280",
+      "StockCode": "NFLX",
+      "Units": [
+        {
+          "id": "usd",
+          "measure": "iso4217:USD"
+        },
+        {
+          "id": "number",
+          "measure": "xbrli:pure"
+        },
+        {
+          "id": "shares",
+          "measure": "xbrli:shares"
+        },
+        {
+          "id": "segment",
+          "measure": "nflx:segment"
+        },
+        {
+          "id": "usdPerShare",
+          "divide": {
+            "unitNumerator": {
+              "measure": "iso4217:USD"
+            },
+            "unitDenominator": {
+              "measure": "xbrli:shares"
+            }
+          }
+        },
+        {
+          "id": "subscription",
+          "measure": "nflx:subscription"
+        },
+        {
+          "id": "employee_group",
+          "measure": "nflx:employee_group"
+        },
+        {
+          "id": "lawsuits_filed",
+          "measure": "nflx:lawsuits_filed"
+        }
+      ],
+      "Contexts": [
+        {
+          "id": "FI2014Q2",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "instant": "2014-06-30"
+          },
+          "us-gaap": {
+            "AccountsPayableCurrent": {
+              "value": "137226000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "AccruedLiabilitiesCurrent": {
+              "value": "98548000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "AccumulatedDepreciationDepletionAndAmortizationPropertyPlantAndEquipment": {
+              "value": "245090000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "AccumulatedOtherComprehensiveIncomeLossNetOfTax": {
+              "value": "6502000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "AdditionalPaidInCapitalCommonStock": {
+              "value": "926525000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "Assets": {
+              "value": "6325822000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "AssetsCurrent": {
+              "value": "3668380000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "AvailableForSaleSecuritiesCurrent": {
+              "value": "500121000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "AvailableForSaleSecuritiesDebtMaturitiesNextRollingTwelveMonthsFairValue": {
+              "value": "134965000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "AvailableForSaleSecuritiesDebtMaturitiesRollingYearTwoThroughFiveFairValue": {
+              "value": "365156000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "AvailableForSaleSecuritiesDebtSecurities": {
+              "value": "500121000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "CashAndCashEquivalentsAtCarryingValue": {
+              "value": "1214244000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "CommonStockParOrStatedValuePerShare": {
+              "value": "0.001",
+              "unit": "usdPerShare",
+              "decimals": "INF"
+            },
+            "CommonStockSharesAuthorized": {
+              "value": "160000000",
+              "unit": "shares",
+              "decimals": "INF"
+            },
+            "CommonStockSharesIssued": {
+              "value": "60091015",
+              "unit": "shares",
+              "decimals": "INF"
+            },
+            "CommonStockSharesOutstanding": {
+              "value": "60091015",
+              "unit": "shares",
+              "decimals": "INF"
+            },
+            "CommonStockValue": {
+              "value": "60000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "DeferredRevenueCurrent": {
+              "value": "241330000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "DeferredTaxAssetsLiabilitiesNetCurrent": {
+              "value": "19000000",
+              "unit": "usd",
+              "decimals": "-5"
+            },
+            "DeferredTaxAssetsLiabilitiesNetNoncurrent": {
+              "value": "100900000",
+              "unit": "usd",
+              "decimals": "-5"
+            },
+            "Liabilities": {
+              "value": "4716117000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "LiabilitiesAndStockholdersEquity": {
+              "value": "6325822000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "LiabilitiesCurrent": {
+              "value": "2335124000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "LongTermDebtNoncurrent": {
+              "value": "900000000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "OtherAssetsCurrent": {
+              "value": "167674000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "OtherAssetsNoncurrent": {
+              "value": "166931000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "OtherLiabilitiesNoncurrent": {
+              "value": "90223000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "PropertyPlantAndEquipmentGross": {
+              "value": "386805000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "PropertyPlantAndEquipmentNet": {
+              "value": "141715000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "PurchaseObligation": {
+              "value": "7728050000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "PurchaseObligationDueAfterFifthYear": {
+              "value": "37895000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "PurchaseObligationDueInFourthAndFifthYear": {
+              "value": "653408000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "PurchaseObligationDueInNextTwelveMonths": {
+              "value": "3304367000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "PurchaseObligationDueInSecondAndThirdYear": {
+              "value": "3732380000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "RetainedEarningsAccumulatedDeficit": {
+              "value": "676618000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardNumberOfSharesAvailableForGrant": {
+              "value": "3141171",
+              "unit": "shares",
+              "decimals": "INF"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingIntrinsicValue": {
+              "value": "1066052000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingNumber": {
+              "value": "3308030",
+              "unit": "shares",
+              "decimals": "INF"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageExercisePrice": {
+              "value": "118.40",
+              "unit": "usdPerShare",
+              "decimals": "2"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsVestedAndExpectedToVestExercisableAggregateIntrinsicValue": {
+              "value": "1066052000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsVestedAndExpectedToVestExercisableNumber": {
+              "value": "3308030",
+              "unit": "shares",
+              "decimals": "INF"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsVestedAndExpectedToVestExercisableWeightedAverageExercisePrice": {
+              "value": "118.40",
+              "unit": "usdPerShare",
+              "decimals": "2"
+            },
+            "StockholdersEquity": {
+              "value": "1609705000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "UnrecognizedTaxBenefits": {
+              "value": "78600000",
+              "unit": "usd",
+              "decimals": "-5"
+            },
+            "UnrecognizedTaxBenefitsIncomeTaxPenaltiesAndInterestAccrued": {
+              "value": "4400000",
+              "unit": "usd",
+              "decimals": "-5"
+            },
+            "UnrecognizedTaxBenefitsThatWouldImpactEffectiveTaxRate": {
+              "value": "65400000",
+              "unit": "usd",
+              "decimals": "-5"
+            },
+            "UnrecordedUnconditionalPurchaseObligationBalanceSheetAmount": {
+              "value": "4500000000",
+              "unit": "usd",
+              "decimals": "-8"
+            }
+          },
+          "nflx": {
+            "AvailableForSaleSecuritiesIncludingCashCashEquivalentsAndRestrictedCashAmortizedCost": {
+              "value": "1718508000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "AvailableForSaleSecuritiesIncludingCashCashEquivalentsAndRestrictedCashFairValueDisclosure": {
+              "value": "1720068000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "AvailableForSaleSecuritiesIncludingCashCashEquivalentsAndRestrictedCashUnrealizedGains": {
+              "value": "1578000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "AvailableForSaleSecuritiesIncludingCashCashEquivalentsAndRestrictedCashUnrealizedLosses": {
+              "value": "18000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "ContentLiabilitiesCurrent": {
+              "value": "1858020000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "ContentLiabilitiesNoncurrent": {
+              "value": "1390770000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "ContentLibraryAccumulatedAmortization": {
+              "value": "3212730000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "ContentLibraryGross": {
+              "value": "7347867000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "ContentLibraryNet": {
+              "value": "4135137000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "ContentLibraryNetCurrent": {
+              "value": "1786341000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "ContentLibraryNetNoncurrent": {
+              "value": "2348796000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "NumberOfSubscriptionsAtEndOfPeriod": {
+              "value": "0",
+              "unit": "subscription",
+              "decimals": "-3"
+            }
+          },
+          "xbrldei": {
+            "EntityCommonStockSharesOutstanding": {
+              "value": "60091015",
+              "unit": "shares",
+              "decimals": "INF"
+            }
+          }
+        },
+        {
+          "id": "FD2014Q2QTD",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "startDate": "2014-04-01",
+            "endDate": "2014-06-30"
+          },
+          "us-gaap": {
+            "AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation": {
+              "value": "14600000",
+              "unit": "usd",
+              "decimals": "-5"
+            },
+            "AllocatedShareBasedCompensationExpense": {
+              "value": "29300000",
+              "unit": "usd",
+              "decimals": "-5"
+            },
+            "CashAndCashEquivalentsPeriodIncreaseDecrease": {
+              "value": "56794000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "ComprehensiveIncomeNetOfTax": {
+              "value": "73017000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "CostOfRevenue": {
+              "value": "914848000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "DeferredIncomeTaxExpenseBenefit": {
+              "value": "-16569000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "DepreciationDepletionAndAmortization": {
+              "value": "12977000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "EarningsPerShareBasic": {
+              "value": "1.18",
+              "unit": "usdPerShare",
+              "decimals": "2"
+            },
+            "EarningsPerShareDiluted": {
+              "value": "1.15",
+              "unit": "usdPerShare",
+              "decimals": "2"
+            },
+            "EffectOfExchangeRateOnCashAndCashEquivalents": {
+              "value": "1250000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "EffectiveIncomeTaxRateContinuingOperations": {
+              "value": "0.39",
+              "unit": "number",
+              "decimals": "2"
+            },
+            "EmployeeServiceShareBasedCompensationTaxBenefitFromCompensationExpense": {
+              "value": "11200000",
+              "unit": "usd",
+              "decimals": "-5"
+            },
+            "ExcessTaxBenefitFromShareBasedCompensationFinancingActivities": {
+              "value": "14628000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "ExcessTaxBenefitFromShareBasedCompensationOperatingActivities": {
+              "value": "14628000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "GainsLossesOnExtinguishmentOfDebt": {
+              "value": "0",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "GeneralAndAdministrativeExpense": {
+              "value": "60014000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments": {
+              "value": "117372000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "IncomeTaxExpenseBenefit": {
+              "value": "46354000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "IncreaseDecreaseInAccountsPayable": {
+              "value": "-3086000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "IncreaseDecreaseInAccruedLiabilities": {
+              "value": "59008000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "IncreaseDecreaseInDeferredRevenue": {
+              "value": "11315000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "IncreaseDecreaseInOtherCurrentAssets": {
+              "value": "20685000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "IncreaseDecreaseInOtherNoncurrentAssetsAndLiabilitiesNet": {
+              "value": "-3133000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "IncrementalCommonSharesAttributableToConversionOfDebtSecurities": {
+              "value": "0",
+              "unit": "shares",
+              "decimals": "-3"
+            },
+            "IncrementalCommonSharesAttributableToShareBasedPaymentArrangements": {
+              "value": "1638000",
+              "unit": "shares",
+              "decimals": "-3"
+            },
+            "InterestExpense": {
+              "value": "13328000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "InterestOnConvertibleDebtNetOfTax": {
+              "value": "0",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "MarketingExpense": {
+              "value": "120763000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "NetCashProvidedByUsedInFinancingActivities": {
+              "value": "28473000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "NetCashProvidedByUsedInInvestingActivities": {
+              "value": "-28953000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "NetCashProvidedByUsedInOperatingActivities": {
+              "value": "56024000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "NetIncomeLoss": {
+              "value": "71018000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "NetIncomeLossAttributableToParentDiluted": {
+              "value": "71018000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "NonoperatingIncomeExpense": {
+              "value": "1100000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "OperatingIncomeLoss": {
+              "value": "129600000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "OtherComprehensiveIncomeAvailableforsaleSecuritiesTaxPortionAttributableToParent": {
+              "value": "51000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent": {
+              "value": "1918000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "OtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentBeforeReclassificationAdjustmentsNetOfTax": {
+              "value": "81000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "OtherComprehensiveIncomeLossBeforeReclassificationsNetOfTax": {
+              "value": "2069000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "OtherComprehensiveIncomeLossNetOfTax": {
+              "value": "1999000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "OtherComprehensiveIncomeLossNetOfTaxPortionAttributableToParent": {
+              "value": "1999000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "OtherCostAndExpenseOperating": {
+              "value": "175196000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "OtherNoncashIncomeExpense": {
+              "value": "-3251000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "PaymentOfFinancingAndStockIssuanceCosts": {
+              "value": "353000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "PaymentsForProceedsFromOtherInvestingActivities": {
+              "value": "-1129000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "PaymentsToAcquireAvailableForSaleSecurities": {
+              "value": "170908000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "PaymentsToAcquirePropertyPlantAndEquipment": {
+              "value": "19869000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "ProceedsFromIssuanceOfDebt": {
+              "value": "0",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "ProceedsFromMaturitiesPrepaymentsAndCallsOfAvailableForSaleSecurities": {
+              "value": "92014000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "ProceedsFromSaleOfAvailableForSaleSecurities": {
+              "value": "89662000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "ProceedsFromStockOptionsExercised": {
+              "value": "14469000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "ReclassificationFromAccumulatedOtherComprehensiveIncomeCurrentPeriodNetOfTax": {
+              "value": "70000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "RepaymentsOfDebt": {
+              "value": "0",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "RepaymentsOfLongTermCapitalLeaseObligations": {
+              "value": "271000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "ResearchAndDevelopmentExpense": {
+              "value": "115182000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "Revenues": {
+              "value": "1340407000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "ShareBasedCompensation": {
+              "value": "29285000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsExpectedDividendRate": {
+              "value": "0.00",
+              "unit": "number",
+              "decimals": "2"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsExpectedVolatilityRate": {
+              "value": "0.45",
+              "unit": "number",
+              "decimals": "2"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsRiskFreeInterestRate": {
+              "value": "0.0266",
+              "unit": "number",
+              "decimals": "4"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisesInPeriodTotalIntrinsicValue": {
+              "value": "46200000",
+              "unit": "usd",
+              "decimals": "-5"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsGrantsInPeriodWeightedAverageGrantDateFairValue": {
+              "value": "196.93",
+              "unit": "usdPerShare",
+              "decimals": "2"
+            },
+            "WeightedAverageNumberOfDilutedSharesOutstanding": {
+              "value": "61634000",
+              "unit": "shares",
+              "decimals": "-3"
+            },
+            "WeightedAverageNumberOfSharesOutstandingBasic": {
+              "value": "59996000",
+              "unit": "shares",
+              "decimals": "-3"
+            }
+          },
+          "nflx": {
+            "AdditionsToStreamingContentLibrary": {
+              "value": "813314000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "ChangeInStreamingContentLiabilities": {
+              "value": "78359000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "ContributionProfit": {
+              "value": "304796000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "CostOfServicesAmortizationOfContentLibrary": {
+              "value": "655960000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "CostOfServicesAmortizationOfDvdContentLibrary": {
+              "value": "16923000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "CostOfServicesAmortizationOfStreamingContentLibrary": {
+              "value": "639037000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "InterestandDebtExpenseandNonoperatingIncomeExpense": {
+              "value": "-12228000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "PaymentsForAcquisitionsOfContentLibrary": {
+              "value": "20981000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsSuboptimalExerciseFactorMaximum": {
+              "value": "4.20",
+              "unit": "number",
+              "decimals": "INF"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsSuboptimalExerciseFactorMinimum": {
+              "value": "2.66",
+              "unit": "number",
+              "decimals": "INF"
+            }
+          }
+        },
+        {
+          "id": "FD2014Q2YTD",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "startDate": "2014-01-01",
+            "endDate": "2014-06-30"
+          },
+          "us-gaap": {
+            "AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation": {
+              "value": "47100000",
+              "unit": "usd",
+              "decimals": "-5"
+            },
+            "AllocatedShareBasedCompensationExpense": {
+              "value": "55100000",
+              "unit": "usd",
+              "decimals": "-5"
+            },
+            "CashAndCashEquivalentsPeriodIncreaseDecrease": {
+              "value": "609279000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "ComprehensiveIncomeNetOfTax": {
+              "value": "127060000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "CostOfRevenue": {
+              "value": "1784034000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "DeferredIncomeTaxExpenseBenefit": {
+              "value": "-29672000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "DepreciationDepletionAndAmortization": {
+              "value": "25359000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "EarningsPerShareBasic": {
+              "value": "2.07",
+              "unit": "usdPerShare",
+              "decimals": "2"
+            },
+            "EarningsPerShareDiluted": {
+              "value": "2.02",
+              "unit": "usdPerShare",
+              "decimals": "2"
+            },
+            "EffectOfExchangeRateOnCashAndCashEquivalents": {
+              "value": "1551000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "EffectiveIncomeTaxRateContinuingOperations": {
+              "value": "0.40",
+              "unit": "number",
+              "decimals": "2"
+            },
+            "EmployeeServiceShareBasedCompensationTaxBenefitFromCompensationExpense": {
+              "value": "21100000",
+              "unit": "usd",
+              "decimals": "-5"
+            },
+            "ExcessTaxBenefitFromShareBasedCompensationFinancingActivities": {
+              "value": "47360000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "ExcessTaxBenefitFromShareBasedCompensationOperatingActivities": {
+              "value": "47360000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "GainsLossesOnExtinguishmentOfDebt": {
+              "value": "0",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "GeneralAndAdministrativeExpense": {
+              "value": "115914000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments": {
+              "value": "206316000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "IncomeTaxExpenseBenefit": {
+              "value": "82183000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "IncreaseDecreaseInAccountsPayable": {
+              "value": "19726000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "IncreaseDecreaseInAccruedLiabilities": {
+              "value": "58566000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "IncreaseDecreaseInDeferredRevenue": {
+              "value": "25563000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "IncreaseDecreaseInOtherCurrentAssets": {
+              "value": "-14381000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "IncreaseDecreaseInOtherNoncurrentAssetsAndLiabilitiesNet": {
+              "value": "-10424000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "IncrementalCommonSharesAttributableToConversionOfDebtSecurities": {
+              "value": "0",
+              "unit": "shares",
+              "decimals": "-3"
+            },
+            "IncrementalCommonSharesAttributableToShareBasedPaymentArrangements": {
+              "value": "1685000",
+              "unit": "shares",
+              "decimals": "-3"
+            },
+            "InterestExpense": {
+              "value": "23380000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "InterestOnConvertibleDebtNetOfTax": {
+              "value": "0",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "MarketingExpense": {
+              "value": "257861000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "NetCashProvidedByUsedInFinancingActivities": {
+              "value": "486659000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "NetCashProvidedByUsedInInvestingActivities": {
+              "value": "28686000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "NetCashProvidedByUsedInOperatingActivities": {
+              "value": "92383000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "NetIncomeLoss": {
+              "value": "124133000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "NetIncomeLossAttributableToParentDiluted": {
+              "value": "124133000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "NonoperatingIncomeExpense": {
+              "value": "2501000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "NumberOfOperatingSegments": {
+              "value": "3",
+              "unit": "segment",
+              "decimals": "INF"
+            },
+            "OperatingIncomeLoss": {
+              "value": "227195000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "OtherComprehensiveIncomeAvailableforsaleSecuritiesTaxPortionAttributableToParent": {
+              "value": "342000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent": {
+              "value": "2379000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "OtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentBeforeReclassificationAdjustmentsNetOfTax": {
+              "value": "548000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "OtherComprehensiveIncomeLossBeforeReclassificationsNetOfTax": {
+              "value": "3177000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "OtherComprehensiveIncomeLossNetOfTax": {
+              "value": "2927000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "OtherComprehensiveIncomeLossNetOfTaxPortionAttributableToParent": {
+              "value": "2927000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "OtherCostAndExpenseOperating": {
+              "value": "341406000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "OtherNoncashIncomeExpense": {
+              "value": "-5447000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "PaymentOfFinancingAndStockIssuanceCosts": {
+              "value": "7080000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "PaymentsForProceedsFromOtherInvestingActivities": {
+              "value": "-1424000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "PaymentsToAcquireAvailableForSaleSecurities": {
+              "value": "231454000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "PaymentsToAcquirePropertyPlantAndEquipment": {
+              "value": "33203000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "ProceedsFromIssuanceOfDebt": {
+              "value": "400000000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "ProceedsFromMaturitiesPrepaymentsAndCallsOfAvailableForSaleSecurities": {
+              "value": "95104000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "ProceedsFromSaleOfAvailableForSaleSecurities": {
+              "value": "232710000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "ProceedsFromStockOptionsExercised": {
+              "value": "46917000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "ReclassificationFromAccumulatedOtherComprehensiveIncomeCurrentPeriodNetOfTax": {
+              "value": "250000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "Reclassifications": "<div style=\"font-family:Times New Roman;font-size:10pt;\"><div style=\"line-height:120%;text-align:left;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;font-weight:bold;\">Reclassifications </font></div><div style=\"line-height:120%;padding-top:6px;text-align:left;text-indent:30px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">Certain prior year amounts have been reclassified to conform to the current year presentation in the consolidated financial statements.  </font></div><div style=\"line-height:120%;padding-bottom:6px;padding-top:6px;text-align:left;text-indent:30px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">Costs of revenues in the amount of </font><font style=\"font-family:inherit;font-size:10pt;\">$7.1 million</font><font style=\"font-family:inherit;font-size:10pt;\"> and </font><font style=\"font-family:inherit;font-size:10pt;\">$17.2 million</font><font style=\"font-family:inherit;font-size:10pt;\"> for the three and six months ended June 30, 2013, respectively, related to free-trial periods that were previously allocated to &#8220;Marketing&#8221; on the Consolidated Statements of Operations have been reallocated to &#8220;Cost of revenues&#8221;.  There was no impact to contribution profit or net income in any period presented and there was no impact to the Consolidated Balance Sheets or Consolidated Statements of Cash Flows.</font></div></div>",
+            "RepaymentsOfDebt": {
+              "value": "0",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "RepaymentsOfLongTermCapitalLeaseObligations": {
+              "value": "538000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "ResearchAndDevelopmentExpense": {
+              "value": "225492000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "Revenues": {
+              "value": "2610496000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "ShareBasedCompensation": {
+              "value": "55110000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsExpectedDividendRate": {
+              "value": "0.00",
+              "unit": "number",
+              "decimals": "2"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsExpectedVolatilityRateMaximum": {
+              "value": "0.48",
+              "unit": "number",
+              "decimals": "INF"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsExpectedVolatilityRateMinimum": {
+              "value": "0.45",
+              "unit": "number",
+              "decimals": "INF"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsRiskFreeInterestRateMaximum": {
+              "value": "0.0283",
+              "unit": "number",
+              "decimals": "INF"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsRiskFreeInterestRateMinimum": {
+              "value": "0.0266",
+              "unit": "number",
+              "decimals": "INF"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisesInPeriodTotalIntrinsicValue": {
+              "value": "147700000",
+              "unit": "usd",
+              "decimals": "-5"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsGrantsInPeriod": {
+              "value": "265146",
+              "unit": "shares",
+              "decimals": "INF"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsGrantsInPeriodWeightedAverageGrantDateFairValue": {
+              "value": "207.85",
+              "unit": "usdPerShare",
+              "decimals": "2"
+            },
+            "ShareBasedCompensationArrangementsByShareBasedPaymentAwardOptionsExercisesInPeriodWeightedAverageExercisePrice": {
+              "value": "96.93",
+              "unit": "usdPerShare",
+              "decimals": "2"
+            },
+            "ShareBasedCompensationArrangementsByShareBasedPaymentAwardOptionsGrantsInPeriodWeightedAverageExercisePrice": {
+              "value": "387.16",
+              "unit": "usdPerShare",
+              "decimals": "2"
+            },
+            "SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm2": "P5Y11M9D",
+            "SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsVestedAndExpectedToVestExercisableWeightedAverageRemainingContractualTerm1": "P5Y11M9D",
+            "StockIssuedDuringPeriodSharesStockOptionsExercised": {
+              "value": "484014",
+              "unit": "shares",
+              "decimals": "INF"
+            },
+            "UseOfEstimates": "<div style=\"font-family:Times New Roman;font-size:10pt;\"><div style=\"line-height:120%;padding-top:8px;text-align:left;text-indent:30px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">The preparation of consolidated financial statements in conformity with U.S. generally accepted accounting principles (&#8220;GAAP&#8221;) requires management to make estimates and judgments that affect the amounts reported in the consolidated financial statements and accompanying notes.  Significant items subject to such estimates and assumptions include the amortization policy for the streaming content library; the recognition and measurement of income tax assets and liabilities; and the valuation of stock-based compensation.  The Company bases its estimates on historical experience and on various other assumptions that the Company believes to be reasonable under the circumstances.  On a regular basis, the Company evaluates the assumptions, judgments and estimates.  Actual results may differ from these estimates.</font></div></div>",
+            "WeightedAverageNumberOfDilutedSharesOutstanding": {
+              "value": "61592000",
+              "unit": "shares",
+              "decimals": "-3"
+            },
+            "WeightedAverageNumberOfSharesOutstandingBasic": {
+              "value": "59907000",
+              "unit": "shares",
+              "decimals": "-3"
+            }
+          },
+          "nflx": {
+            "AdditionsToStreamingContentLibrary": {
+              "value": "1562713000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "ChangeInStreamingContentLiabilities": {
+              "value": "120603000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "ContributionProfit": {
+              "value": "568601000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "CostOfServicesAmortizationOfContentLibrary": {
+              "value": "1272816000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "CostOfServicesAmortizationOfDvdContentLibrary": {
+              "value": "33044000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "CostOfServicesAmortizationOfStreamingContentLibrary": {
+              "value": "1239772000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "InterestandDebtExpenseandNonoperatingIncomeExpense": {
+              "value": "-20879000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "PaymentsForAcquisitionsOfContentLibrary": {
+              "value": "35895000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardEmployeeGroupsNumber": {
+              "value": "2",
+              "unit": "employee_group",
+              "decimals": "INF"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsSuboptimalExerciseFactorMaximum": {
+              "value": "4.20",
+              "unit": "number",
+              "decimals": "INF"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsSuboptimalExerciseFactorMinimum": {
+              "value": "2.66",
+              "unit": "number",
+              "decimals": "INF"
+            }
+          },
+          "xbrldei": {
+            "AmendmentFlag": "false",
+            "CurrentFiscalYearEndDate": "--12-31",
+            "DocumentFiscalPeriodFocus": "Q2",
+            "DocumentFiscalYearFocus": "2014",
+            "DocumentPeriodEndDate": "2014-06-30",
+            "DocumentType": "10-Q",
+            "EntityCentralIndexKey": "0001065280",
+            "EntityFilerCategory": "Large Accelerated Filer",
+            "EntityRegistrantName": "NETFLIX INC"
+          }
+        },
+        {
+          "id": "FI2014Q2_us-gaap_StatementGeographicalAxis_country_US",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "instant": "2014-06-30"
+          },
+          "us-gaap": {
+            "NoncurrentAssets": {
+              "value": "133451000",
+              "unit": "usd",
+              "decimals": "-3"
+            }
+          }
+        },
+        {
+          "id": "FI2014Q2_us-gaap_CashAndCashEquivalentsAxis_us-gaap_CashMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "instant": "2014-06-30"
+          },
+          "nflx": {
+            "CashCashEquivalentsAndRestrictedCashAmortizedCost": {
+              "value": "1113853000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "CashCashEquivalentsAndRestrictedCashFairValueDisclosure": {
+              "value": "1113853000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "CashCashEquivalentsAndRestrictedCashGrossUnrealizedGains": {
+              "value": "0",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "CashCashEquivalentsAndRestrictedCashGrossUnrealizedLosses": {
+              "value": "0",
+              "unit": "usd",
+              "decimals": "-3"
+            }
+          }
+        },
+        {
+          "id": "FI2014Q2_us-gaap_StatementGeographicalAxis_nflx_InternationalMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "instant": "2014-06-30"
+          },
+          "us-gaap": {
+            "NoncurrentAssets": {
+              "value": "8264000",
+              "unit": "usd",
+              "decimals": "-3"
+            }
+          }
+        },
+        {
+          "id": "FI2014Q2_us-gaap_BalanceSheetLocationAxis_nflx_NonCurrentAssetsMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "instant": "2014-06-30"
+          },
+          "nflx": {
+            "AvailableForSaleSecuritiesIncludingCashCashEquivalentsAndRestrictedCashFairValueDisclosure": {
+              "value": "5700000",
+              "unit": "usd",
+              "decimals": "-5"
+            }
+          }
+        },
+        {
+          "id": "FI2014Q2_us-gaap_StatementBusinessSegmentsAxis_nflx_DomesticDvdMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "instant": "2014-06-30"
+          },
+          "nflx": {
+            "ContentLibraryNet": {
+              "value": "24623000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "NumberOfSubscriptionsAtEndOfPeriod": {
+              "value": "6261000",
+              "unit": "subscription",
+              "decimals": "-3"
+            }
+          }
+        },
+        {
+          "id": "FI2014Q2_us-gaap_PlanNameAxis_nflx_TwoThousandAndElevenStockPlanMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "instant": "2014-06-30"
+          },
+          "us-gaap": {
+            "CommonStockCapitalSharesReservedForFutureIssuance": {
+              "value": "3100000",
+              "unit": "shares",
+              "decimals": "-5"
+            }
+          }
+        },
+        {
+          "id": "FD2014Q2QTD_us-gaap_StatementBusinessSegmentsAxis_nflx_DomesticDvdMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "startDate": "2014-04-01",
+            "endDate": "2014-06-30"
+          },
+          "us-gaap": {
+            "CostOfRevenue": {
+              "value": "101928000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "MarketingExpense": {
+              "value": "0",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "Revenues": {
+              "value": "194721000",
+              "unit": "usd",
+              "decimals": "-3"
+            }
+          },
+          "nflx": {
+            "ContributionProfit": {
+              "value": "92793000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "CostOfServicesAmortizationOfContentLibrary": {
+              "value": "16923000",
+              "unit": "usd",
+              "decimals": "-3"
+            }
+          }
+        },
+        {
+          "id": "FD2014Q2YTD_us-gaap_StatementBusinessSegmentsAxis_nflx_DomesticDvdMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "startDate": "2014-01-01",
+            "endDate": "2014-06-30"
+          },
+          "us-gaap": {
+            "CostOfRevenue": {
+              "value": "208753000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "MarketingExpense": {
+              "value": "0",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "Revenues": {
+              "value": "399075000",
+              "unit": "usd",
+              "decimals": "-3"
+            }
+          },
+          "nflx": {
+            "ContributionProfit": {
+              "value": "190322000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "CostOfServicesAmortizationOfContentLibrary": {
+              "value": "33044000",
+              "unit": "usd",
+              "decimals": "-3"
+            }
+          }
+        },
+        {
+          "id": "FI2014Q2_us-gaap_PropertyPlantAndEquipmentByTypeAxis_us-gaap_BuildingMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "instant": "2014-06-30"
+          },
+          "us-gaap": {
+            "PropertyPlantAndEquipmentGross": {
+              "value": "40681000",
+              "unit": "usd",
+              "decimals": "-3"
+            }
+          }
+        },
+        {
+          "id": "FI2014Q2_us-gaap_StatementBusinessSegmentsAxis_nflx_DomesticStreamingMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "instant": "2014-06-30"
+          },
+          "nflx": {
+            "ContentLibraryNet": {
+              "value": "3196275000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "NumberOfSubscriptionsAtEndOfPeriod": {
+              "value": "36244000",
+              "unit": "subscription",
+              "decimals": "-3"
+            }
+          }
+        },
+        {
+          "id": "FI2014Q2_us-gaap_BalanceSheetLocationAxis_us-gaap_ShortTermInvestmentsMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "instant": "2014-06-30"
+          },
+          "nflx": {
+            "AvailableForSaleSecuritiesIncludingCashCashEquivalentsAndRestrictedCashFairValueDisclosure": {
+              "value": "500100000",
+              "unit": "usd",
+              "decimals": "-5"
+            }
+          }
+        },
+        {
+          "id": "FI2014Q2_us-gaap_PropertyPlantAndEquipmentByTypeAxis_us-gaap_EquipmentMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "instant": "2014-06-30"
+          },
+          "us-gaap": {
+            "PropertyPlantAndEquipmentGross": {
+              "value": "94109000",
+              "unit": "usd",
+              "decimals": "-3"
+            }
+          }
+        },
+        {
+          "id": "FD2014Q2QTD_us-gaap_StatementBusinessSegmentsAxis_nflx_DomesticStreamingMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "startDate": "2014-04-01",
+            "endDate": "2014-06-30"
+          },
+          "us-gaap": {
+            "CostOfRevenue": {
+              "value": "546223000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "MarketingExpense": {
+              "value": "64727000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "Revenues": {
+              "value": "838225000",
+              "unit": "usd",
+              "decimals": "-3"
+            }
+          },
+          "nflx": {
+            "ContributionProfit": {
+              "value": "227275000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "CostOfServicesAmortizationOfContentLibrary": {
+              "value": "409896000",
+              "unit": "usd",
+              "decimals": "-3"
+            }
+          }
+        },
+        {
+          "id": "FD2014Q2YTD_us-gaap_PropertyPlantAndEquipmentByTypeAxis_us-gaap_BuildingMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "startDate": "2014-01-01",
+            "endDate": "2014-06-30"
+          },
+          "us-gaap": {
+            "PropertyPlantAndEquipmentUsefulLife": "P30Y"
+          }
+        },
+        {
+          "id": "FD2014Q2YTD_us-gaap_StatementBusinessSegmentsAxis_nflx_DomesticStreamingMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "startDate": "2014-01-01",
+            "endDate": "2014-06-30"
+          },
+          "us-gaap": {
+            "CostOfRevenue": {
+              "value": "1063317000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "MarketingExpense": {
+              "value": "144985000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "Revenues": {
+              "value": "1636842000",
+              "unit": "usd",
+              "decimals": "-3"
+            }
+          },
+          "nflx": {
+            "ContributionProfit": {
+              "value": "428540000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "CostOfServicesAmortizationOfContentLibrary": {
+              "value": "796211000",
+              "unit": "usd",
+              "decimals": "-3"
+            }
+          }
+        },
+        {
+          "id": "FI2014Q2_us-gaap_BalanceSheetLocationAxis_nflx_CurrentContentLiabilitiesMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "instant": "2014-06-30"
+          },
+          "us-gaap": {
+            "RecordedUnconditionalPurchaseObligation": {
+              "value": "1800000000",
+              "unit": "usd",
+              "decimals": "-8"
+            }
+          }
+        },
+        {
+          "id": "FI2014Q2_us-gaap_BalanceSheetLocationAxis_us-gaap_CashAndCashEquivalentsMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "instant": "2014-06-30"
+          },
+          "nflx": {
+            "AvailableForSaleSecuritiesIncludingCashCashEquivalentsAndRestrictedCashFairValueDisclosure": {
+              "value": "1214200000",
+              "unit": "usd",
+              "decimals": "-5"
+            }
+          }
+        },
+        {
+          "id": "FD2014Q2YTD_us-gaap_PropertyPlantAndEquipmentByTypeAxis_us-gaap_EquipmentMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "startDate": "2014-01-01",
+            "endDate": "2014-06-30"
+          },
+          "us-gaap": {
+            "PropertyPlantAndEquipmentUsefulLife": "P5Y"
+          }
+        },
+        {
+          "id": "FI2014Q2_us-gaap_StatementBusinessSegmentsAxis_nflx_InternationalStreamingMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "instant": "2014-06-30"
+          },
+          "nflx": {
+            "ContentLibraryNet": {
+              "value": "914239000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "NumberOfSubscriptionsAtEndOfPeriod": {
+              "value": "13801000",
+              "unit": "subscription",
+              "decimals": "-3"
+            }
+          }
+        },
+        {
+          "id": "FI2014Q2_us-gaap_BalanceSheetLocationAxis_nflx_NoncurrentContentLiabilitiesMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "instant": "2014-06-30"
+          },
+          "us-gaap": {
+            "RecordedUnconditionalPurchaseObligation": {
+              "value": "1400000000",
+              "unit": "usd",
+              "decimals": "-8"
+            }
+          }
+        },
+        {
+          "id": "FD2014Q2QTD_us-gaap_StatementBusinessSegmentsAxis_nflx_InternationalStreamingMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "startDate": "2014-04-01",
+            "endDate": "2014-06-30"
+          },
+          "us-gaap": {
+            "CostOfRevenue": {
+              "value": "266697000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "MarketingExpense": {
+              "value": "56036000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "Revenues": {
+              "value": "307461000",
+              "unit": "usd",
+              "decimals": "-3"
+            }
+          },
+          "nflx": {
+            "ContributionProfit": {
+              "value": "-15272000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "CostOfServicesAmortizationOfContentLibrary": {
+              "value": "229141000",
+              "unit": "usd",
+              "decimals": "-3"
+            }
+          }
+        },
+        {
+          "id": "FD2014Q2YTD_us-gaap_StatementBusinessSegmentsAxis_nflx_InternationalStreamingMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "startDate": "2014-01-01",
+            "endDate": "2014-06-30"
+          },
+          "us-gaap": {
+            "CostOfRevenue": {
+              "value": "511964000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "MarketingExpense": {
+              "value": "112876000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "Revenues": {
+              "value": "574579000",
+              "unit": "usd",
+              "decimals": "-3"
+            }
+          },
+          "nflx": {
+            "ContributionProfit": {
+              "value": "-50261000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "CostOfServicesAmortizationOfContentLibrary": {
+              "value": "443561000",
+              "unit": "usd",
+              "decimals": "-3"
+            }
+          }
+        },
+        {
+          "id": "FI2014Q2_us-gaap_PropertyPlantAndEquipmentByTypeAxis_us-gaap_ComputerEquipmentMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "instant": "2014-06-30"
+          },
+          "us-gaap": {
+            "PropertyPlantAndEquipmentGross": {
+              "value": "125264000",
+              "unit": "usd",
+              "decimals": "-3"
+            }
+          }
+        },
+        {
+          "id": "FD2014Q2YTD_us-gaap_PropertyPlantAndEquipmentByTypeAxis_us-gaap_ComputerEquipmentMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "startDate": "2014-01-01",
+            "endDate": "2014-06-30"
+          },
+          "us-gaap": {
+            "PropertyPlantAndEquipmentUsefulLife": "P3Y"
+          }
+        },
+        {
+          "id": "FI2014Q2_us-gaap_PropertyPlantAndEquipmentByTypeAxis_us-gaap_FurnitureAndFixturesMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "instant": "2014-06-30"
+          },
+          "us-gaap": {
+            "PropertyPlantAndEquipmentGross": {
+              "value": "24010000",
+              "unit": "usd",
+              "decimals": "-3"
+            }
+          }
+        },
+        {
+          "id": "FI2014Q2_us-gaap_PropertyPlantAndEquipmentByTypeAxis_us-gaap_LeaseholdImprovementsMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "instant": "2014-06-30"
+          },
+          "us-gaap": {
+            "PropertyPlantAndEquipmentGross": {
+              "value": "54343000",
+              "unit": "usd",
+              "decimals": "-3"
+            }
+          }
+        },
+        {
+          "id": "FI2014Q2_us-gaap_PropertyPlantAndEquipmentByTypeAxis_us-gaap_ConstructionInProgressMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "instant": "2014-06-30"
+          },
+          "us-gaap": {
+            "PropertyPlantAndEquipmentGross": {
+              "value": "12149000",
+              "unit": "usd",
+              "decimals": "-3"
+            }
+          }
+        },
+        {
+          "id": "FD2014Q2YTD_us-gaap_PropertyPlantAndEquipmentByTypeAxis_us-gaap_FurnitureAndFixturesMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "startDate": "2014-01-01",
+            "endDate": "2014-06-30"
+          },
+          "us-gaap": {
+            "PropertyPlantAndEquipmentUsefulLife": "P3Y"
+          }
+        },
+        {
+          "id": "FI2014Q2_us-gaap_StatementEquityComponentsAxis_us-gaap_AccumulatedTranslationAdjustmentMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "instant": "2014-06-30"
+          },
+          "us-gaap": {
+            "AccumulatedOtherComprehensiveIncomeLossNetOfTax": {
+              "value": "5532000",
+              "unit": "usd",
+              "decimals": "-3"
+            }
+          }
+        },
+        {
+          "id": "FD2014Q2QTD_us-gaap_StatementEquityComponentsAxis_us-gaap_AccumulatedTranslationAdjustmentMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "startDate": "2014-04-01",
+            "endDate": "2014-06-30"
+          },
+          "us-gaap": {
+            "OtherComprehensiveIncomeLossBeforeReclassificationsNetOfTax": {
+              "value": "1918000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "OtherComprehensiveIncomeLossNetOfTax": {
+              "value": "1918000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "ReclassificationFromAccumulatedOtherComprehensiveIncomeCurrentPeriodNetOfTax": {
+              "value": "0",
+              "unit": "usd",
+              "decimals": "-3"
+            }
+          }
+        },
+        {
+          "id": "FD2014Q2YTD_us-gaap_StatementEquityComponentsAxis_us-gaap_AccumulatedTranslationAdjustmentMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "startDate": "2014-01-01",
+            "endDate": "2014-06-30"
+          },
+          "us-gaap": {
+            "OtherComprehensiveIncomeLossBeforeReclassificationsNetOfTax": {
+              "value": "2379000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "OtherComprehensiveIncomeLossNetOfTax": {
+              "value": "2379000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "ReclassificationFromAccumulatedOtherComprehensiveIncomeCurrentPeriodNetOfTax": {
+              "value": "0",
+              "unit": "usd",
+              "decimals": "-3"
+            }
+          }
+        },
+        {
+          "id": "FI2014Q2_us-gaap_PropertyPlantAndEquipmentByTypeAxis_us-gaap_SoftwareAndSoftwareDevelopmentCostsMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "instant": "2014-06-30"
+          },
+          "us-gaap": {
+            "PropertyPlantAndEquipmentGross": {
+              "value": "36249000",
+              "unit": "usd",
+              "decimals": "-3"
+            }
+          }
+        },
+        {
+          "id": "FI2014Q2_us-gaap_StatementEquityComponentsAxis_us-gaap_AccumulatedNetUnrealizedInvestmentGainLossMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "instant": "2014-06-30"
+          },
+          "us-gaap": {
+            "AccumulatedOtherComprehensiveIncomeLossNetOfTax": {
+              "value": "970000",
+              "unit": "usd",
+              "decimals": "-3"
+            }
+          }
+        },
+        {
+          "id": "FD2014Q2YTD_us-gaap_PropertyPlantAndEquipmentByTypeAxis_us-gaap_SoftwareAndSoftwareDevelopmentCostsMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "startDate": "2014-01-01",
+            "endDate": "2014-06-30"
+          },
+          "us-gaap": {
+            "PropertyPlantAndEquipmentUsefulLife": "P3Y"
+          }
+        },
+        {
+          "id": "FD2014Q2QTD_us-gaap_StatementEquityComponentsAxis_us-gaap_AccumulatedNetUnrealizedInvestmentGainLossMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "startDate": "2014-04-01",
+            "endDate": "2014-06-30"
+          },
+          "us-gaap": {
+            "OtherComprehensiveIncomeLossBeforeReclassificationsNetOfTax": {
+              "value": "151000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "OtherComprehensiveIncomeLossNetOfTax": {
+              "value": "81000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "ReclassificationFromAccumulatedOtherComprehensiveIncomeCurrentPeriodNetOfTax": {
+              "value": "70000",
+              "unit": "usd",
+              "decimals": "-3"
+            }
+          }
+        },
+        {
+          "id": "FD2014Q2YTD_us-gaap_StatementEquityComponentsAxis_us-gaap_AccumulatedNetUnrealizedInvestmentGainLossMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "startDate": "2014-01-01",
+            "endDate": "2014-06-30"
+          },
+          "us-gaap": {
+            "OtherComprehensiveIncomeLossBeforeReclassificationsNetOfTax": {
+              "value": "798000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "OtherComprehensiveIncomeLossNetOfTax": {
+              "value": "548000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "ReclassificationFromAccumulatedOtherComprehensiveIncomeCurrentPeriodNetOfTax": {
+              "value": "250000",
+              "unit": "usd",
+              "decimals": "-3"
+            }
+          }
+        },
+        {
+          "id": "FD2014Q2YTD_us-gaap_DebtInstrumentAxis_nflx_SeniorNotes5.750Member_us-gaap_LongtermDebtTypeAxis_us-gaap_SeniorNotesMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "startDate": "2014-01-01",
+            "endDate": "2014-06-30"
+          },
+          "us-gaap": {
+            "DebtInstrumentRedemptionPricePercentage": {
+              "value": "1.01",
+              "unit": "number",
+              "decimals": "INF"
+            }
+          }
+        },
+        {
+          "id": "FD2014Q2QTD_us-gaap_AntidilutiveSecuritiesExcludedFromComputationOfEarningsPerShareByAntidilutiveSecuritiesAxis_us-gaap_EmployeeStockOptionMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "startDate": "2014-04-01",
+            "endDate": "2014-06-30"
+          },
+          "us-gaap": {
+            "AntidilutiveSecuritiesExcludedFromComputationOfEarningsPerShareAmount": {
+              "value": "99000",
+              "unit": "shares",
+              "decimals": "-3"
+            }
+          }
+        },
+        {
+          "id": "FD2014Q2YTD_us-gaap_AntidilutiveSecuritiesExcludedFromComputationOfEarningsPerShareByAntidilutiveSecuritiesAxis_us-gaap_EmployeeStockOptionMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "startDate": "2014-01-01",
+            "endDate": "2014-06-30"
+          },
+          "us-gaap": {
+            "AntidilutiveSecuritiesExcludedFromComputationOfEarningsPerShareAmount": {
+              "value": "70000",
+              "unit": "shares",
+              "decimals": "-3"
+            }
+          }
+        },
+        {
+          "id": "FD2014Q2YTD_us-gaap_DebtInstrumentAxis_nflx_FivePointThreeSevenFivePercentSeniorNotesMember_us-gaap_LongtermDebtTypeAxis_us-gaap_SeniorNotesMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "startDate": "2014-01-01",
+            "endDate": "2014-06-30"
+          },
+          "us-gaap": {
+            "DebtInstrumentRedemptionPricePercentage": {
+              "value": "1.01",
+              "unit": "number",
+              "decimals": "INF"
+            }
+          }
+        },
+        {
+          "id": "FI2014Q2_us-gaap_FairValueByFairValueHierarchyLevelAxis_us-gaap_FairValueInputsLevel2Member_us-gaap_MajorTypesOfDebtAndEquitySecuritiesAxis_us-gaap_SovereignDebtMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "instant": "2014-06-30"
+          },
+          "us-gaap": {
+            "AvailableForSaleSecurities": {
+              "value": "164181000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "AvailableForSaleSecuritiesAmortizedCost": {
+              "value": "163871000",
+              "unit": "usd",
+              "decimals": "-3"
+            }
+          },
+          "nflx": {
+            "AvailableForSaleSecuritiesGrossUnrealizedGain1": {
+              "value": "311000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "AvailableForSaleSecuritiesGrossUnrealizedLoss1": {
+              "value": "1000",
+              "unit": "usd",
+              "decimals": "-3"
+            }
+          }
+        },
+        {
+          "id": "FI2014Q2_us-gaap_FairValueByFairValueHierarchyLevelAxis_us-gaap_FairValueInputsLevel1Member_us-gaap_MajorTypesOfDebtAndEquitySecuritiesAxis_us-gaap_MoneyMarketFundsMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "instant": "2014-06-30"
+          },
+          "nflx": {
+            "CashCashEquivalentsAndRestrictedCashAmortizedCost": {
+              "value": "106094000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "CashCashEquivalentsAndRestrictedCashFairValueDisclosure": {
+              "value": "106094000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "CashCashEquivalentsAndRestrictedCashGrossUnrealizedGains": {
+              "value": "0",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "CashCashEquivalentsAndRestrictedCashGrossUnrealizedLosses": {
+              "value": "0",
+              "unit": "usd",
+              "decimals": "-3"
+            }
+          }
+        },
+        {
+          "id": "FI2014Q2_us-gaap_FairValueByFairValueHierarchyLevelAxis_us-gaap_FairValueInputsLevel2Member_us-gaap_MajorTypesOfDebtAndEquitySecuritiesAxis_us-gaap_AssetBackedSecuritiesMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "instant": "2014-06-30"
+          },
+          "us-gaap": {
+            "AvailableForSaleSecurities": {
+              "value": "1535000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "AvailableForSaleSecuritiesAmortizedCost": {
+              "value": "1534000",
+              "unit": "usd",
+              "decimals": "-3"
+            }
+          },
+          "nflx": {
+            "AvailableForSaleSecuritiesGrossUnrealizedGain1": {
+              "value": "1000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "AvailableForSaleSecuritiesGrossUnrealizedLoss1": {
+              "value": "0",
+              "unit": "usd",
+              "decimals": "-3"
+            }
+          }
+        },
+        {
+          "id": "FI2014Q2_us-gaap_FairValueByFairValueHierarchyLevelAxis_us-gaap_FairValueInputsLevel2Member_us-gaap_MajorTypesOfDebtAndEquitySecuritiesAxis_us-gaap_CorporateDebtSecuritiesMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "instant": "2014-06-30"
+          },
+          "us-gaap": {
+            "AvailableForSaleSecurities": {
+              "value": "310577000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "AvailableForSaleSecuritiesAmortizedCost": {
+              "value": "309328000",
+              "unit": "usd",
+              "decimals": "-3"
+            }
+          },
+          "nflx": {
+            "AvailableForSaleSecuritiesGrossUnrealizedGain1": {
+              "value": "1266000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "AvailableForSaleSecuritiesGrossUnrealizedLoss1": {
+              "value": "17000",
+              "unit": "usd",
+              "decimals": "-3"
+            }
+          }
+        },
+        {
+          "id": "FI2014Q2_us-gaap_FairValueByFairValueHierarchyLevelAxis_us-gaap_FairValueInputsLevel2Member_us-gaap_MajorTypesOfDebtAndEquitySecuritiesAxis_nflx_CertificatesofDepositandCommercialPaperMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "instant": "2014-06-30"
+          },
+          "us-gaap": {
+            "AvailableForSaleSecurities": {
+              "value": "23828000",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "AvailableForSaleSecuritiesAmortizedCost": {
+              "value": "23828000",
+              "unit": "usd",
+              "decimals": "-3"
+            }
+          },
+          "nflx": {
+            "AvailableForSaleSecuritiesGrossUnrealizedGain1": {
+              "value": "0",
+              "unit": "usd",
+              "decimals": "-3"
+            },
+            "AvailableForSaleSecuritiesGrossUnrealizedLoss1": {
+              "value": "0",
+              "unit": "usd",
+              "decimals": "-3"
+            }
+          }
+        },
+        {
+          "id": "FI2014Q2_us-gaap_DebtInstrumentAxis_nflx_SeniorNotes5.750Member_us-gaap_FairValueByFairValueHierarchyLevelAxis_us-gaap_FairValueInputsLevel2Member_us-gaap_LongtermDebtTypeAxis_us-gaap_SeniorNotesMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "instant": "2014-06-30"
+          },
+          "us-gaap": {
+            "LongTermDebtFairValue": {
+              "value": "418000000",
+              "unit": "usd",
+              "decimals": "-5"
+            }
+          }
+        },
+        {
+          "id": "FI2014Q2_us-gaap_DebtInstrumentAxis_nflx_FivePointThreeSevenFivePercentSeniorNotesMember_us-gaap_FairValueByFairValueHierarchyLevelAxis_us-gaap_FairValueInputsLevel2Member_us-gaap_LongtermDebtTypeAxis_us-gaap_SeniorNotesMember",
+          "entity": {
+            "identifier": "0001065280"
+          },
+          "period": {
+            "instant": "2014-06-30"
+          },
+          "us-gaap": {
+            "LongTermDebtFairValue": {
+              "value": "523800000",
+              "unit": "usd",
+              "decimals": "-5"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

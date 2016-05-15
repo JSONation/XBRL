@@ -1,0 +1,2291 @@
+{
+  "SchemaURI": "urn:///JSONation/XBRL/APIoverGitHub/V0/Schema/",
+  "ReferenceURI": "https://www.sec.gov/edgar/searchedgar/companysearch.html",
+  "JSONData": {
+    "SourceType": "XBRL",
+    "RegistrantName": "AMAZON COM INC",
+    "FiscalYear": "2016",
+    "FiscalYearStartDate": "",
+    "FiscalYearEndDate": "2016-12-31",
+    "FiscalPeriod": "Q1",
+    "FiscalPeriodEndDate": "2016-03-31",
+    "FilingDate": "",
+    "FinancialStatement ": {
+      "FilingRules": "EDGAR",
+      "AccountingStandards": "",
+      "Identifier": "0001018724",
+      "StockCode": "AMZN",
+      "Units": [
+        {
+          "id": "eur",
+          "measure": "iso4217:EUR"
+        },
+        {
+          "id": "usd",
+          "measure": "iso4217:USD"
+        },
+        {
+          "id": "number",
+          "measure": "xbrli:pure"
+        },
+        {
+          "id": "shares",
+          "measure": "xbrli:shares"
+        },
+        {
+          "id": "Segment",
+          "measure": "amzn:Segment"
+        },
+        {
+          "id": "usdPerShare",
+          "divide": {
+            "unitNumerator": {
+              "measure": "iso4217:USD"
+            },
+            "unitDenominator": {
+              "measure": "xbrli:shares"
+            }
+          }
+        }
+      ],
+      "Contexts": [
+        {
+          "id": "D2016Q1",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "startDate": "2015-04-01",
+            "endDate": "2016-03-31"
+          },
+          "amzn": {
+            "CashPaidForInterestCapitalandFinanceLeases": {
+              "value": "168000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "Repaymentsoflongtermfinancingleaseobligations": {
+              "value": "111000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          },
+          "us-gaap": {
+            "CashAndCashEquivalentsPeriodIncreaseDecrease": {
+              "value": "2233000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "DeferredIncomeTaxExpenseBenefit": {
+              "value": "94000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "DepreciationAndAmortization": {
+              "value": "6682000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "EffectOfExchangeRateOnCashAndCashEquivalents": {
+              "value": "171000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "ExcessTaxBenefitFromShareBasedCompensationFinancingActivities": {
+              "value": "305000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "ExcessTaxBenefitFromShareBasedCompensationOperatingActivities": {
+              "value": "305000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "GainLossOnSaleOfInvestments": {
+              "value": "-6000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "IncomeTaxesPaidNet": {
+              "value": "357000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "IncreaseDecreaseInAccountsPayable": {
+              "value": "2773000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "IncreaseDecreaseInAccountsReceivableAndOtherOperatingAssets": {
+              "value": "1784000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "IncreaseDecreaseInAccruedLiabilitiesAndOtherOperatingLiabilities": {
+              "value": "893000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "IncreaseDecreaseInDeferredRevenue": {
+              "value": "8412000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "IncreaseDecreaseInInventories": {
+              "value": "2138000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "InterestPaid": {
+              "value": "310000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "NetCashProvidedByUsedInFinancingActivities": {
+              "value": "-3900000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "NetCashProvidedByUsedInInvestingActivities": {
+              "value": "-5296000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "NetCashProvidedByUsedInOperatingActivities": {
+              "value": "11258000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "NetIncomeLoss": {
+              "value": "1166000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "OtherNoncashIncomeExpense": {
+              "value": "-102000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "OtherOperatingIncomeExpenseNet": {
+              "value": "-155000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "PaymentsToAcquireBusinessesAndInterestInAffiliates": {
+              "value": "446000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "PaymentsToAcquireMarketableSecurities": {
+              "value": "3741000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "PaymentsToAcquirePropertyPlantAndEquipment": {
+              "value": "4897000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "ProceedsFromRepaymentsOfLongTermDebtAndCapitalSecurities": {
+              "value": "179000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "ProceedsFromSaleMaturityAndCollectionsOfInvestments": {
+              "value": "3788000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "RecognitionOfDeferredRevenue": {
+              "value": "7055000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "RepaymentsOfDebt": {
+              "value": "1512000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "RepaymentsOfLongTermCapitalLeaseObligations": {
+              "value": "2761000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "ShareBasedCompensation": {
+              "value": "2257000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "FI2016Q1",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "instant": "2016-03-31"
+          },
+          "amzn": {
+            "Capitalleasesfutureminimumpaymentsdueafteryearfour": {
+              "value": "93000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "CashEquivalentsandMarketableSecuritiesAmortizedCostBasis": {
+              "value": "8553000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "CashEquivalentsandMarketableSecuritiesFairValueDisclosure": {
+              "value": "8554000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "CommitmentsAfterYearFour": {
+              "value": "15023000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "CommonStockSharesOutstandingIncludingStockAwards": {
+              "value": "490000000",
+              "unit": "shares",
+              "decimals": "-6"
+            },
+            "FinanceLeaseObligationsCurrent": {
+              "value": "103000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "FinanceLeaseObligationsNoncurrent": {
+              "value": "1800000000",
+              "unit": "usd",
+              "decimals": "-8"
+            },
+            "Operatingleasesfutureminimumpaymentsdueafteryearfour": {
+              "value": "2599000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "OtherCommitmentDueafterFourthYear": {
+              "value": "1583000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "SecuritiesandFixedAssetsOwnedandPledgedasCollateralFairValue": {
+              "value": "440000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "Unconditionalpurchaseobligationsdueafterfourthyear": {
+              "value": "28000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          },
+          "us-gaap": {
+            "AccountsPayableCurrent": {
+              "value": "14990000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "AccountsReceivableNetCurrent": {
+              "value": "5072000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "AccruedLiabilitiesCurrent": {
+              "value": "9431000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "AccumulatedOtherComprehensiveIncomeLossNetOfTax": {
+              "value": "-614000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "AdditionalPaidInCapital": {
+              "value": "14144000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "Assets": {
+              "value": "61128000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "AssetsCurrent": {
+              "value": "30513000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "CapitalLeaseObligationsCurrent": {
+              "value": "3200000000",
+              "unit": "usd",
+              "decimals": "-8"
+            },
+            "CapitalLeaseObligationsNoncurrent": {
+              "value": "4200000000",
+              "unit": "usd",
+              "decimals": "-8"
+            },
+            "CapitalLeasesFutureMinimumPaymentsDue": {
+              "value": "7632000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "CapitalLeasesFutureMinimumPaymentsDueCurrent": {
+              "value": "2833000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "CapitalLeasesFutureMinimumPaymentsDueInFourYears": {
+              "value": "185000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "CapitalLeasesFutureMinimumPaymentsDueInThreeYears": {
+              "value": "425000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "CapitalLeasesFutureMinimumPaymentsDueInTwoYears": {
+              "value": "1577000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "CapitalLeasesFutureMinimumPaymentsRemainderOfFiscalYear": {
+              "value": "2519000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "CashAndCashEquivalentsAtCarryingValue": {
+              "value": "12470000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "CashCashEquivalentsAndShortTermInvestments": {
+              "value": "15859000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "CommitmentsFairValueDisclosure": {
+              "value": "34972000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "CommonStockParOrStatedValuePerShare": {
+              "value": "0.01",
+              "unit": "usdPerShare",
+              "decimals": "INF"
+            },
+            "CommonStockSharesAuthorized": {
+              "value": "5000000000",
+              "unit": "shares",
+              "decimals": "INF"
+            },
+            "CommonStockSharesIssued": {
+              "value": "495000000",
+              "unit": "shares",
+              "decimals": "-6"
+            },
+            "CommonStockSharesOutstanding": {
+              "value": "472000000",
+              "unit": "shares",
+              "decimals": "-6"
+            },
+            "CommonStockValue": {
+              "value": "5000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "ContractualObligationDueInFourthYear": {
+              "value": "1549000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "ContractualObligationDueInNextTwelveMonths": {
+              "value": "6325000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "ContractualObligationDueInSecondYear": {
+              "value": "3664000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "ContractualObligationDueInThirdYear": {
+              "value": "3062000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "ContractualObligationFutureMinimumPaymentsDueRemainderOfFiscalYear": {
+              "value": "5349000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "DebtInstrumentCarryingAmount": {
+              "value": "8315000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "DebtInstrumentUnamortizedDiscount": {
+              "value": "96000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "DeferredRevenueCurrent": {
+              "value": "3766000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "EmployeeServiceShareBasedCompensationNonvestedAwardsTotalCompensationCostNotYetRecognized": {
+              "value": "2900000000",
+              "unit": "usd",
+              "decimals": "-8"
+            },
+            "Goodwill": {
+              "value": "3785000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "InventoryNet": {
+              "value": "9582000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "LiabilitiesAndStockholdersEquity": {
+              "value": "61128000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "LiabilitiesCurrent": {
+              "value": "28187000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "LineOfCreditFacilityFairValueOfAmountOutstanding": {
+              "value": "0",
+              "unit": "usd",
+              "decimals": "0"
+            },
+            "LineOfCreditFacilityMaximumBorrowingCapacity": {
+              "value": "2000000000",
+              "unit": "usd",
+              "decimals": "-8"
+            },
+            "LongTermDebt": {
+              "value": "8405000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "LongTermDebtCurrent": {
+              "value": "90000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "LongTermDebtFairValue": {
+              "value": "8900000000",
+              "unit": "usd",
+              "decimals": "-8"
+            },
+            "LongTermDebtNoncurrent": {
+              "value": "8219000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "LongtermDebtWeightedAverageInterestRate": {
+              "value": "0.0340",
+              "unit": "number",
+              "decimals": "4"
+            },
+            "MarketableSecuritiesCurrent": {
+              "value": "3389000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "OperatingLeasesFutureMinimumPaymentsDue": {
+              "value": "6939000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "OperatingLeasesFutureMinimumPaymentsDueCurrent": {
+              "value": "982000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "OperatingLeasesFutureMinimumPaymentsDueInFourYears": {
+              "value": "687000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "OperatingLeasesFutureMinimumPaymentsDueInThreeYears": {
+              "value": "769000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "OperatingLeasesFutureMinimumPaymentsDueInTwoYears": {
+              "value": "872000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "OperatingLeasesFutureMinimumPaymentsRemainderOfFiscalYear": {
+              "value": "1030000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "OtherAssetsNoncurrent": {
+              "value": "3522000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "OtherCommitment": {
+              "value": "3496000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "OtherCommitmentDueInFourthYear": {
+              "value": "176000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "OtherCommitmentDueInNextTwelveMonths": {
+              "value": "418000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "OtherCommitmentDueInSecondYear": {
+              "value": "283000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "OtherCommitmentDueInThirdYear": {
+              "value": "216000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "OtherCommitmentsFutureMinimumPaymentsRemainderOfFiscalYear": {
+              "value": "820000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "OtherLiabilitiesNoncurrent": {
+              "value": "9966000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "OtherLongTermDebt": {
+              "value": "155000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "PreferredStockParOrStatedValuePerShare": {
+              "value": "0.01",
+              "unit": "usdPerShare",
+              "decimals": "INF"
+            },
+            "PreferredStockSharesAuthorized": {
+              "value": "500000000",
+              "unit": "shares",
+              "decimals": "INF"
+            },
+            "PreferredStockSharesIssued": {
+              "value": "0",
+              "unit": "shares",
+              "decimals": "-6"
+            },
+            "PreferredStockSharesOutstanding": {
+              "value": "0",
+              "unit": "shares",
+              "decimals": "-6"
+            },
+            "PreferredStockValue": {
+              "value": "0",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "PropertyPlantAndEquipmentNet": {
+              "value": "23308000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "RetainedEarningsAccumulatedDeficit": {
+              "value": "3058000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "SecurityOwnedAndPledgedAsCollateralFairValue": {
+              "value": "311000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "StockholdersEquity": {
+              "value": "14756000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "TreasuryStockValue": {
+              "value": "1837000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "UnrecognizedTaxBenefits": {
+              "value": "1300000000",
+              "unit": "usd",
+              "decimals": "-8"
+            },
+            "UnrecordedUnconditionalPurchaseObligationBalanceOnFirstAnniversary": {
+              "value": "597000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "UnrecordedUnconditionalPurchaseObligationBalanceOnFourthAnniversary": {
+              "value": "72000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "UnrecordedUnconditionalPurchaseObligationBalanceOnSecondAnniversary": {
+              "value": "445000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "UnrecordedUnconditionalPurchaseObligationBalanceOnThirdAnniversary": {
+              "value": "200000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "UnrecordedUnconditionalPurchaseObligationBalanceSheetAmount": {
+              "value": "1825000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "UnrecordedUnconditionalPurchaseObligationDueInRemainderOfFiscalYear": {
+              "value": "483000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "FD2016Q1YTD",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "startDate": "2016-01-01",
+            "endDate": "2016-03-31"
+          },
+          "amzn": {
+            "CashPaidForInterestCapitalandFinanceLeases": {
+              "value": "47000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "FairValueAdjustmentofWarrantAssets": {
+              "value": "5000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "FulfillmentExpense": {
+              "value": "3687000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "Repaymentsoflongtermfinancingleaseobligations": {
+              "value": "29000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "TechnologyAndContentExpense": {
+              "value": "3526000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          },
+          "xbrldei": {
+            "AmendmentFlag": "false",
+            "CurrentFiscalYearEndDate": "--12-31",
+            "DocumentFiscalPeriodFocus": "Q1",
+            "DocumentFiscalYearFocus": "2016",
+            "DocumentPeriodEndDate": "2016-03-31",
+            "DocumentType": "10-Q",
+            "EntityCentralIndexKey": "0001018724",
+            "EntityFilerCategory": "Large Accelerated Filer",
+            "EntityRegistrantName": "AMAZON COM INC",
+            "TradingSymbol": "AMZN"
+          },
+          "us-gaap": {
+            "CashAndCashEquivalentsPeriodIncreaseDecrease": {
+              "value": "-3420000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "ComprehensiveIncomeNetOfTax": {
+              "value": "622000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "CostOfGoodsAndServicesSold": {
+              "value": "18866000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "CostsAndExpenses": {
+              "value": "28057000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "DebtInstrumentBasisSpreadOnVariableRate1": {
+              "value": "0.00625",
+              "unit": "number",
+              "decimals": "INF"
+            },
+            "DebtInstrumentDescriptionOfVariableRateBasis": "LIBOR",
+            "DebtInstrumentTerm": "P2Y",
+            "DeferredIncomeTaxExpenseBenefit": {
+              "value": "11000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "DepreciationAndAmortization": {
+              "value": "1827000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "EarningsPerShareBasic": {
+              "value": "1.09",
+              "unit": "usdPerShare",
+              "decimals": "2"
+            },
+            "EarningsPerShareDiluted": {
+              "value": "1.07",
+              "unit": "usdPerShare",
+              "decimals": "2"
+            },
+            "EffectOfExchangeRateOnCashAndCashEquivalents": {
+              "value": "222000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "EmployeeServiceShareBasedCompensationNonvestedAwardsTotalCompensationCostNotYetRecognizedPeriodForRecognition1": "P1Y1M",
+            "ExcessTaxBenefitFromShareBasedCompensationFinancingActivities": {
+              "value": "207000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "ExcessTaxBenefitFromShareBasedCompensationOperatingActivities": {
+              "value": "207000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "GainLossOnSaleOfInvestments": {
+              "value": "-2000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "GeneralAndAdministrativeExpense": {
+              "value": "497000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments": {
+              "value": "1056000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "IncomeLossFromEquityMethodInvestments": {
+              "value": "-68000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "IncomeTaxExpenseBenefit": {
+              "value": "475000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "IncomeTaxesPaidNet": {
+              "value": "139000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "IncreaseDecreaseInAccountsPayable": {
+              "value": "-5770000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "IncreaseDecreaseInAccountsReceivableAndOtherOperatingAssets": {
+              "value": "-412000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "IncreaseDecreaseInAccruedLiabilitiesAndOtherOperatingLiabilities": {
+              "value": "-956000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "IncreaseDecreaseInDeferredRevenue": {
+              "value": "2814000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "IncreaseDecreaseInInventories": {
+              "value": "-769000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "IncrementalCommonSharesAttributableToShareBasedPaymentArrangements": {
+              "value": "10000000",
+              "unit": "shares",
+              "decimals": "-6"
+            },
+            "InterestExpense": {
+              "value": "117000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "InterestPaid": {
+              "value": "2000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "InvestmentIncomeInterest": {
+              "value": "21000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "LeaseAndRentalExpense": {
+              "value": "322000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "LineOfCreditFacilityDescription": "may be extended for up to three additional one-year terms if approved by the lenders",
+            "LineOfCreditFacilityInitiationDate1": "2014-09-05",
+            "MarketingExpense": {
+              "value": "1436000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "NetCashProvidedByUsedInFinancingActivities": {
+              "value": "-789000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "NetCashProvidedByUsedInInvestingActivities": {
+              "value": "-693000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "NetCashProvidedByUsedInOperatingActivities": {
+              "value": "-2160000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "NetIncomeLoss": {
+              "value": "513000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "NonoperatingIncomeExpense": {
+              "value": "-15000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "NumberOfOperatingSegments": {
+              "value": "3",
+              "unit": "Segment",
+              "decimals": "INF"
+            },
+            "OperatingIncomeLoss": {
+              "value": "1071000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "OtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax": {
+              "value": "7000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "OtherComprehensiveIncomeLossForeignCurrencyTransactionAndTranslationAdjustmentNetOfTax": {
+              "value": "102000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "OtherComprehensiveIncomeLossForeignCurrencyTranslationAdjustmentTax": {
+              "value": "-24000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "OtherComprehensiveIncomeLossNetOfTax": {
+              "value": "109000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "OtherComprehensiveIncomeLossReclassificationAdjustmentFromAOCIForSaleOfSecuritiesNetOfTax": {
+              "value": "-1000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "OtherComprehensiveIncomeLossReclassificationAdjustmentFromAOCIForSaleOfSecuritiesTax": {
+              "value": "1000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "OtherComprehensiveIncomeUnrealizedHoldingGainLossOnSecuritiesArisingDuringPeriodNetOfTax": {
+              "value": "6000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "OtherComprehensiveIncomeUnrealizedHoldingGainLossOnSecuritiesArisingDuringPeriodTax": {
+              "value": "0",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "OtherCostAndExpenseOperating": {
+              "value": "45000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "OtherNoncashIncomeExpense": {
+              "value": "52000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "OtherNonoperatingIncomeExpense": {
+              "value": "81000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "OtherOperatingIncomeExpenseNet": {
+              "value": "-43000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "PaymentsToAcquireBusinessesAndInterestInAffiliates": {
+              "value": "16000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "PaymentsToAcquireMarketableSecurities": {
+              "value": "636000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "PaymentsToAcquirePropertyPlantAndEquipment": {
+              "value": "1179000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "ProceedsFromRepaymentsOfLongTermDebtAndCapitalSecurities": {
+              "value": "9000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "ProceedsFromSaleMaturityAndCollectionsOfInvestments": {
+              "value": "1138000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "RecognitionOfDeferredRevenue": {
+              "value": "2110000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "RepaymentsOfDebt": {
+              "value": "175000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "RepaymentsOfLongTermCapitalLeaseObligations": {
+              "value": "801000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "SalesRevenueGoodsNet": {
+              "value": "20581000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "SalesRevenueNet": {
+              "value": "29128000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "SalesRevenueServicesNet": {
+              "value": "8547000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "ShareBasedCompensation": {
+              "value": "544000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "WeightedAverageNumberOfDilutedSharesOutstanding": {
+              "value": "481000000",
+              "unit": "shares",
+              "decimals": "-6"
+            },
+            "WeightedAverageNumberOfSharesOutstandingBasic": {
+              "value": "471000000",
+              "unit": "shares",
+              "decimals": "-6"
+            },
+            "ComparabilityOfPriorYearFinancialData": "<div style=\"font-family:Times New Roman;font-size:10pt;\"><div style=\"line-height:120%;padding-top:18px;text-indent:16px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;font-style:italic;font-weight:bold;\">Prior Period Reclassifications</font></div><div style=\"line-height:120%;padding-top:6px;text-indent:32px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">Certain prior period amounts have been reclassified to conform to the current period presentation, including the allocation of stock-based compensation and &#8220;Other operating expense (income), net&#8221; to segment results within &#8220;Note 7 &#8212; Segment Information.&#8221; These revised segment results reflect the way the Company evaluates its business performance and manages its operations. Current deferred tax assets and current deferred tax liabilities were reclassified as non-current. See &#8220;Recent Accounting Pronouncements&#8221; below. We also reclassified our capitalized debt issuance costs from &#8220;Other assets&#8221; to &#8220;Long-term debt&#8221; as a result of the adoption of new accounting guidance. The adoption of this guidance did not have a material impact on our consolidated financial statements.</font></div></div>",
+            "UseOfEstimates": "<div style=\"font-family:Times New Roman;font-size:10pt;\"><div style=\"line-height:120%;padding-top:18px;text-indent:16px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;font-style:italic;font-weight:bold;\">Use of Estimates</font></div><div style=\"line-height:120%;padding-top:6px;text-indent:32px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">The preparation of financial statements in conformity with GAAP requires estimates and assumptions that affect the reported amounts of assets and liabilities, revenues and expenses, and related disclosures of contingent liabilities in the consolidated financial statements and accompanying notes. Estimates are used for, but not limited to, determining the selling price of products and services in multiple element revenue arrangements and determining the amortization period of these elements, incentive discount offers, sales returns, vendor funding, stock-based compensation forfeiture rates, income taxes, valuation and impairment of investments, inventory valuation and inventory purchase commitments, collectability of receivables, valuation of acquired intangibles and goodwill, depreciable lives of property and equipment, internal-use software and website development costs, acquisition purchase price allocations, investments in equity interests, and contingencies. Actual results could differ materially from those estimates.</font></div></div>"
+          }
+        },
+        {
+          "id": "I2016Q1ShareOutstanding",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "instant": "2016-04-20"
+          },
+          "xbrldei": {
+            "EntityCommonStockSharesOutstanding": {
+              "value": "471827960",
+              "unit": "shares",
+              "decimals": "INF"
+            }
+          }
+        },
+        {
+          "id": "FD2016Q1QTD_us-gaap_RangeAxis_us-gaap_MaximumMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "startDate": "2016-01-01",
+            "endDate": "2016-03-31"
+          },
+          "us-gaap": {
+            "DebtInstrumentBasisSpreadOnVariableRate1": {
+              "value": "0.01",
+              "unit": "number",
+              "decimals": "INF"
+            }
+          }
+        },
+        {
+          "id": "FI2016Q1_amzn_PeriodAxis_amzn_DueAfterTenYearsMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "instant": "2016-03-31"
+          },
+          "amzn": {
+            "CashEquivalentsandMarketableSecuritiesAmortizedCostBasis": {
+              "value": "151000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "CashEquivalentsandMarketableSecuritiesFairValueDisclosure": {
+              "value": "149000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "FD2016Q1QTD_us-gaap_IncomeTaxAuthorityAxis_country_FR",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "startDate": "2016-01-01",
+            "endDate": "2016-03-31"
+          },
+          "us-gaap": {
+            "IncomeTaxExaminationDescription": "Certain of our subsidiaries are under examination or investigation or may be subject to examination or investigation by the French Tax Administration (“FTA”) for calendar year 2006 and thereafter",
+            "IncomeTaxExaminationEstimateOfPossibleLoss": {
+              "value": "196000000",
+              "unit": "eur",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "FI2016Q1_amzn_PeriodAxis_amzn_DueInOneYearOrLessMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "instant": "2016-03-31"
+          },
+          "amzn": {
+            "CashEquivalentsandMarketableSecuritiesAmortizedCostBasis": {
+              "value": "7135000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "CashEquivalentsandMarketableSecuritiesFairValueDisclosure": {
+              "value": "7137000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "FI2016Q1_us-gaap_InvestmentTypeAxis_us-gaap_CashMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "instant": "2016-03-31"
+          },
+          "amzn": {
+            "CashCashEquivalentsAndMarketableSecuritiesAmortizedCost": {
+              "value": "7602000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "CashCashEquivalentsAndMarketableSecuritiesUnrealizedGains": {
+              "value": "0",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "CashCashEquivalentsAndMarketableSecuritiesUnrealizedLosses": {
+              "value": "0",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          },
+          "us-gaap": {
+            "CashCashEquivalentsAndShortTermInvestments": {
+              "value": "7602000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "FD2016Q1QTD_us-gaap_ProductOrServiceAxis_amzn_MediaMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "startDate": "2016-01-01",
+            "endDate": "2016-03-31"
+          },
+          "us-gaap": {
+            "SalesRevenueNet": {
+              "value": "5688000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "FD2016Q1QTD_us-gaap_LongtermDebtTypeAxis_amzn_SeniorNotes2Member",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "startDate": "2016-01-01",
+            "endDate": "2016-03-31"
+          },
+          "us-gaap": {
+            "DebtInstrumentFrequencyOfPeriodicPayment": "semi-annually in arrears in June and December"
+          }
+        },
+        {
+          "id": "FD2016Q1QTD_us-gaap_LongtermDebtTypeAxis_us-gaap_SeniorNotesMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "startDate": "2016-01-01",
+            "endDate": "2016-03-31"
+          },
+          "us-gaap": {
+            "DebtInstrumentFrequencyOfPeriodicPayment": "semi-annually in arrears in May and November"
+          }
+        },
+        {
+          "id": "FD2016Q1QTD_us-gaap_ProductOrServiceAxis_amzn_OtherNonRetailMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "startDate": "2016-01-01",
+            "endDate": "2016-03-31"
+          },
+          "us-gaap": {
+            "SalesRevenueNet": {
+              "value": "329000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "FI2016Q1_amzn_PeriodAxis_amzn_DueAfterOneYearThroughFiveYearsMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "instant": "2016-03-31"
+          },
+          "amzn": {
+            "CashEquivalentsandMarketableSecuritiesAmortizedCostBasis": {
+              "value": "1175000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "CashEquivalentsandMarketableSecuritiesFairValueDisclosure": {
+              "value": "1176000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "FI2016Q1_amzn_PeriodAxis_amzn_DueAfterFiveYearsThroughTenYearsMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "instant": "2016-03-31"
+          },
+          "amzn": {
+            "CashEquivalentsandMarketableSecuritiesAmortizedCostBasis": {
+              "value": "92000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "CashEquivalentsandMarketableSecuritiesFairValueDisclosure": {
+              "value": "92000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "FI2016Q1_us-gaap_AwardTypeAxis_us-gaap_RestrictedStockUnitsRSUMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "instant": "2016-03-31"
+          },
+          "amzn": {
+            "ScheduledVestingDisclosure": {
+              "value": "18200000",
+              "unit": "shares",
+              "decimals": "-5"
+            },
+            "ScheduledVestingRemainderOfYear": {
+              "value": "5300000",
+              "unit": "shares",
+              "decimals": "-5"
+            },
+            "ScheduledVestingThereafter": {
+              "value": "200000",
+              "unit": "shares",
+              "decimals": "-5"
+            },
+            "ScheduledVestingYearFour": {
+              "value": "200000",
+              "unit": "shares",
+              "decimals": "-5"
+            },
+            "ScheduledVestingYearOne": {
+              "value": "6800000",
+              "unit": "shares",
+              "decimals": "-5"
+            },
+            "ScheduledVestingYearThree": {
+              "value": "1900000",
+              "unit": "shares",
+              "decimals": "-5"
+            },
+            "ScheduledVestingYearTwo": {
+              "value": "3800000",
+              "unit": "shares",
+              "decimals": "-5"
+            }
+          },
+          "us-gaap": {
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsNonvestedNumber": {
+              "value": "18200000",
+              "unit": "shares",
+              "decimals": "-5"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsNonvestedWeightedAverageGrantDateFairValue": {
+              "value": "377",
+              "unit": "usdPerShare",
+              "decimals": "0"
+            }
+          }
+        },
+        {
+          "id": "FD2016Q1QTD_us-gaap_ProductOrServiceAxis_amzn_AmazonWebServicesMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "startDate": "2016-01-01",
+            "endDate": "2016-03-31"
+          },
+          "us-gaap": {
+            "SalesRevenueNet": {
+              "value": "2566000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "FD2016Q1QTD_us-gaap_IncomeTaxAuthorityAxis_us-gaap_EuropeanUnionMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "startDate": "2016-01-01",
+            "endDate": "2016-03-31"
+          },
+          "us-gaap": {
+            "IncomeTaxExaminationDescription": "In addition, in October 2014, the European Commission opened a formal investigation to examine whether decisions by the tax authorities in Luxembourg with regard to the corporate income tax paid by certain of our subsidiaries comply with European Union rules on state aid."
+          }
+        },
+        {
+          "id": "FD2016Q1QTD_us-gaap_IncomeTaxAuthorityAxis_us-gaap_ForeignCountryMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "startDate": "2016-01-01",
+            "endDate": "2016-03-31"
+          },
+          "us-gaap": {
+            "IncomeTaxExaminationDescription": "We are also subject to taxation in various states and other foreign jurisdictions including Canada, China, Germany, India, Italy, Japan, Luxembourg, and the United Kingdom. We are under, or may be subject to, audit or examination and additional assessments in respect of these particular jurisdictions for 2003 and thereafter."
+          }
+        },
+        {
+          "id": "FD2016Q1YTD_us-gaap_AwardTypeAxis_us-gaap_RestrictedStockUnitsRSUMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "startDate": "2016-01-01",
+            "endDate": "2016-03-31"
+          },
+          "us-gaap": {
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsForfeitedInPeriod": {
+              "value": "600000",
+              "unit": "shares",
+              "decimals": "-5"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsForfeituresWeightedAverageGrantDateFairValue": {
+              "value": "374",
+              "unit": "usdPerShare",
+              "decimals": "0"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsGrantsInPeriod": {
+              "value": "900000",
+              "unit": "shares",
+              "decimals": "-5"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsGrantsInPeriodWeightedAverageGrantDateFairValue": {
+              "value": "566",
+              "unit": "usdPerShare",
+              "decimals": "0"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriod": {
+              "value": "1000000",
+              "unit": "shares",
+              "decimals": "-5"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriodWeightedAverageGrantDateFairValue": {
+              "value": "271",
+              "unit": "usdPerShare",
+              "decimals": "0"
+            }
+          }
+        },
+        {
+          "id": "FD2016Q1QTD_us-gaap_ConsolidationItemsAxis_us-gaap_OperatingSegmentsMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "startDate": "2016-01-01",
+            "endDate": "2016-03-31"
+          },
+          "amzn": {
+            "SegmentOperatingIncomeLossBeforeStockBasedCompensationAndOther": {
+              "value": "1660000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "StockBasedCompensationAndOther": {
+              "value": "589000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          },
+          "us-gaap": {
+            "CostsAndExpenses": {
+              "value": "27468000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "SalesRevenueNet": {
+              "value": "29128000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "FD2016Q1QTD_us-gaap_IncomeStatementLocationAxis_amzn_FulfillmentExpenseMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "startDate": "2016-01-01",
+            "endDate": "2016-03-31"
+          },
+          "us-gaap": {
+            "AllocatedShareBasedCompensationExpense": {
+              "value": "116000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "FI2016Q1_us-gaap_LossContingenciesByNatureOfContingencyAxis_us-gaap_DebtMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "instant": "2016-03-31"
+          },
+          "amzn": {
+            "CommitmentsAfterYearFour": {
+              "value": "9157000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          },
+          "us-gaap": {
+            "CommitmentsFairValueDisclosure": {
+              "value": "12674000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "ContractualObligationDueInFourthYear": {
+              "value": "246000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "ContractualObligationDueInNextTwelveMonths": {
+              "value": "1322000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "ContractualObligationDueInSecondYear": {
+              "value": "310000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "ContractualObligationDueInThirdYear": {
+              "value": "1272000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "ContractualObligationFutureMinimumPaymentsDueRemainderOfFiscalYear": {
+              "value": "367000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "D2016Q1_us-gaap_MajorPropertyClassAxis_us-gaap_AssetsHeldUnderCapitalLeasesMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "startDate": "2015-04-01",
+            "endDate": "2016-03-31"
+          },
+          "us-gaap": {
+            "NoncashOrPartNoncashAcquisitionFixedAssetsAcquired1": {
+              "value": "4638000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "D2016Q1_us-gaap_MajorPropertyClassAxis_amzn_AssetsHeldUnderBuildToSuitLeasesMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "startDate": "2015-04-01",
+            "endDate": "2016-03-31"
+          },
+          "us-gaap": {
+            "NoncashOrPartNoncashAcquisitionFixedAssetsAcquired1": {
+              "value": "793000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "FD2016Q1QTD_us-gaap_IncomeTaxAuthorityAxis_us-gaap_InternalRevenueServiceIRSMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "startDate": "2016-01-01",
+            "endDate": "2016-03-31"
+          },
+          "us-gaap": {
+            "IncomeTaxExaminationDescription": "We are under examination, or may be subject to examination, by the Internal Revenue Service (“IRS”) for the calendar year 2005 and thereafter",
+            "IncomeTaxExaminationEstimateOfPossibleLoss": {
+              "value": "1500000000",
+              "unit": "usd",
+              "decimals": "-8"
+            }
+          }
+        },
+        {
+          "id": "FD2016Q1QTD_us-gaap_MajorPropertyClassAxis_us-gaap_AssetsHeldUnderCapitalLeasesMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "startDate": "2016-01-01",
+            "endDate": "2016-03-31"
+          },
+          "us-gaap": {
+            "NoncashOrPartNoncashAcquisitionFixedAssetsAcquired1": {
+              "value": "875000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "FD2016Q1QTD_us-gaap_IncomeStatementLocationAxis_amzn_TechnologyAndContentExpenseMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "startDate": "2016-01-01",
+            "endDate": "2016-03-31"
+          },
+          "us-gaap": {
+            "AllocatedShareBasedCompensationExpense": {
+              "value": "317000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "FD2016Q1QTD_us-gaap_MajorPropertyClassAxis_amzn_AssetsHeldUnderBuildToSuitLeasesMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "startDate": "2016-01-01",
+            "endDate": "2016-03-31"
+          },
+          "us-gaap": {
+            "NoncashOrPartNoncashAcquisitionFixedAssetsAcquired1": {
+              "value": "351000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "FD2016Q1QTD_us-gaap_IncomeStatementLocationAxis_us-gaap_SellingAndMarketingExpenseMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "startDate": "2016-01-01",
+            "endDate": "2016-03-31"
+          },
+          "us-gaap": {
+            "AllocatedShareBasedCompensationExpense": {
+              "value": "56000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "FD2016Q1QTD_us-gaap_ProductOrServiceAxis_amzn_ElectronicsAndOtherGeneralMerchandiseMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "startDate": "2016-01-01",
+            "endDate": "2016-03-31"
+          },
+          "us-gaap": {
+            "SalesRevenueNet": {
+              "value": "20545000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "FI2016Q1_us-gaap_InvestmentTypeAxis_amzn_CashCashEquivalentsAndShortTermInvestmentsMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "instant": "2016-03-31"
+          },
+          "amzn": {
+            "CashCashEquivalentsAndMarketableSecuritiesAmortizedCost": {
+              "value": "16158000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "CashCashEquivalentsAndMarketableSecuritiesUnrealizedGains": {
+              "value": "16000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "CashCashEquivalentsAndMarketableSecuritiesUnrealizedLosses": {
+              "value": "4000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          },
+          "us-gaap": {
+            "CashCashEquivalentsAndShortTermInvestments": {
+              "value": "16170000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "FI2016Q1_us-gaap_FairValueByFairValueHierarchyLevelAxis_us-gaap_FairValueInputsLevel2Member",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "instant": "2016-03-31"
+          },
+          "us-gaap": {
+            "WarrantsAndRightsOutstanding": {
+              "value": "95000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "FD2016Q1QTD_us-gaap_IncomeStatementLocationAxis_us-gaap_GeneralAndAdministrativeExpenseMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "startDate": "2016-01-01",
+            "endDate": "2016-03-31"
+          },
+          "us-gaap": {
+            "AllocatedShareBasedCompensationExpense": {
+              "value": "55000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "FI2016Q1_us-gaap_LossContingenciesByNatureOfContingencyAxis_amzn_FinancingLeaseObligationsMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "instant": "2016-03-31"
+          },
+          "amzn": {
+            "CommitmentsAfterYearFour": {
+              "value": "1563000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          },
+          "us-gaap": {
+            "CommitmentsFairValueDisclosure": {
+              "value": "2406000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "ContractualObligationDueInFourthYear": {
+              "value": "183000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "ContractualObligationDueInNextTwelveMonths": {
+              "value": "173000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "ContractualObligationDueInSecondYear": {
+              "value": "177000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "ContractualObligationDueInThirdYear": {
+              "value": "180000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "ContractualObligationFutureMinimumPaymentsDueRemainderOfFiscalYear": {
+              "value": "130000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "FI2016Q1_us-gaap_LongtermDebtTypeAxis_amzn_SeniorUnsecuredNotesTwoPointSixPercentDueDecemberFifthTwoThousandNineteenMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "instant": "2016-03-31"
+          },
+          "us-gaap": {
+            "DebtInstrumentInterestRateEffectivePercentage": {
+              "value": "0.0273",
+              "unit": "number",
+              "decimals": "4"
+            },
+            "DebtInstrumentInterestRateStatedPercentage": {
+              "value": "0.026",
+              "unit": "number",
+              "decimals": "INF"
+            },
+            "LongTermDebt": {
+              "value": "1000000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "FI2016Q1_us-gaap_LongtermDebtTypeAxis_amzn_SeniorUnsecuredNotesFourPointEightPercentDueDecemberFifthTwoThousandThirtyFourMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "instant": "2016-03-31"
+          },
+          "us-gaap": {
+            "DebtInstrumentInterestRateEffectivePercentage": {
+              "value": "0.0492",
+              "unit": "number",
+              "decimals": "4"
+            },
+            "DebtInstrumentInterestRateStatedPercentage": {
+              "value": "0.048",
+              "unit": "number",
+              "decimals": "INF"
+            },
+            "LongTermDebt": {
+              "value": "1250000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "FI2016Q1_us-gaap_LongtermDebtTypeAxis_amzn_SeniorUnsecuredNotesThreePointThreePercentDueDecemberFifthTwoThousandTwentyOneMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "instant": "2016-03-31"
+          },
+          "us-gaap": {
+            "DebtInstrumentInterestRateEffectivePercentage": {
+              "value": "0.0343",
+              "unit": "number",
+              "decimals": "4"
+            },
+            "DebtInstrumentInterestRateStatedPercentage": {
+              "value": "0.033",
+              "unit": "number",
+              "decimals": "INF"
+            },
+            "LongTermDebt": {
+              "value": "1000000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "FI2016Q1_us-gaap_LongtermDebtTypeAxis_amzn_SeniorUnsecuredNotesOnePointTwoPercentDueNovemberTwentyNineTwoThousandSeventeenMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "instant": "2016-03-31"
+          },
+          "us-gaap": {
+            "DebtInstrumentInterestRateEffectivePercentage": {
+              "value": "0.0138",
+              "unit": "number",
+              "decimals": "4"
+            },
+            "DebtInstrumentInterestRateStatedPercentage": {
+              "value": "0.012",
+              "unit": "number",
+              "decimals": "INF"
+            },
+            "LongTermDebt": {
+              "value": "1000000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "FI2016Q1_us-gaap_LongtermDebtTypeAxis_amzn_SeniorUnsecuredNotesThreePointEightPercentDueDecemberFifthTwoThousandTwentyFourMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "instant": "2016-03-31"
+          },
+          "us-gaap": {
+            "DebtInstrumentInterestRateEffectivePercentage": {
+              "value": "0.0390",
+              "unit": "number",
+              "decimals": "4"
+            },
+            "DebtInstrumentInterestRateStatedPercentage": {
+              "value": "0.038",
+              "unit": "number",
+              "decimals": "INF"
+            },
+            "LongTermDebt": {
+              "value": "1250000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "FI2016Q1_us-gaap_LongtermDebtTypeAxis_amzn_SeniorUnsecuredNotesTwoPointFivePercentDueNovemberTwentyNineTwoThousandTwentyTwoMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "instant": "2016-03-31"
+          },
+          "us-gaap": {
+            "DebtInstrumentInterestRateEffectivePercentage": {
+              "value": "0.0266",
+              "unit": "number",
+              "decimals": "4"
+            },
+            "DebtInstrumentInterestRateStatedPercentage": {
+              "value": "0.025",
+              "unit": "number",
+              "decimals": "INF"
+            },
+            "LongTermDebt": {
+              "value": "1250000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "FI2016Q1_us-gaap_LongtermDebtTypeAxis_amzn_SeniorUnsecuredNotesFourPointNineFivePercentDueDecemberTwentyNineTwoThousandFortyFourMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "instant": "2016-03-31"
+          },
+          "us-gaap": {
+            "DebtInstrumentInterestRateEffectivePercentage": {
+              "value": "0.0511",
+              "unit": "number",
+              "decimals": "4"
+            },
+            "DebtInstrumentInterestRateStatedPercentage": {
+              "value": "0.0495",
+              "unit": "number",
+              "decimals": "INF"
+            },
+            "LongTermDebt": {
+              "value": "1500000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "FD2016Q1QTD_us-gaap_ConsolidationItemsAxis_us-gaap_OperatingSegmentsMember_us-gaap_StatementBusinessSegmentsAxis_amzn_NorthAmericaSegmentMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "startDate": "2016-01-01",
+            "endDate": "2016-03-31"
+          },
+          "amzn": {
+            "SegmentOperatingIncomeLossBeforeStockBasedCompensationAndOther": {
+              "value": "924000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "StockBasedCompensationAndOther": {
+              "value": "336000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          },
+          "us-gaap": {
+            "CostsAndExpenses": {
+              "value": "16072000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "OperatingIncomeLoss": {
+              "value": "588000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "SalesRevenueNet": {
+              "value": "16996000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "FD2016Q1QTD_us-gaap_ConsolidationItemsAxis_us-gaap_OperatingSegmentsMember_us-gaap_StatementBusinessSegmentsAxis_amzn_InternationalSegmentMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "startDate": "2016-01-01",
+            "endDate": "2016-03-31"
+          },
+          "amzn": {
+            "SegmentOperatingIncomeLossBeforeStockBasedCompensationAndOther": {
+              "value": "20000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "StockBasedCompensationAndOther": {
+              "value": "141000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          },
+          "us-gaap": {
+            "CostsAndExpenses": {
+              "value": "9546000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "OperatingIncomeLoss": {
+              "value": "-121000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "SalesRevenueNet": {
+              "value": "9566000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "FD2016Q1QTD_us-gaap_ConsolidationItemsAxis_us-gaap_OperatingSegmentsMember_us-gaap_StatementBusinessSegmentsAxis_amzn_AmazonWebServicesSegmentMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "startDate": "2016-01-01",
+            "endDate": "2016-03-31"
+          },
+          "amzn": {
+            "SegmentOperatingIncomeLossBeforeStockBasedCompensationAndOther": {
+              "value": "716000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "StockBasedCompensationAndOther": {
+              "value": "112000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          },
+          "us-gaap": {
+            "CostsAndExpenses": {
+              "value": "1850000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "OperatingIncomeLoss": {
+              "value": "604000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "SalesRevenueNet": {
+              "value": "2566000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "FI2016Q1_us-gaap_FairValueByFairValueHierarchyLevelAxis_us-gaap_FairValueInputsLevel1Member_us-gaap_InvestmentTypeAxis_us-gaap_EquitySecuritiesMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "instant": "2016-03-31"
+          },
+          "amzn": {
+            "CashCashEquivalentsAndMarketableSecuritiesAmortizedCost": {
+              "value": "3000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "CashCashEquivalentsAndMarketableSecuritiesUnrealizedGains": {
+              "value": "11000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "CashCashEquivalentsAndMarketableSecuritiesUnrealizedLosses": {
+              "value": "0",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          },
+          "us-gaap": {
+            "CashCashEquivalentsAndShortTermInvestments": {
+              "value": "14000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "FI2016Q1_us-gaap_FairValueByFairValueHierarchyLevelAxis_us-gaap_FairValueInputsLevel1Member_us-gaap_InvestmentTypeAxis_us-gaap_MoneyMarketFundsMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "instant": "2016-03-31"
+          },
+          "amzn": {
+            "CashCashEquivalentsAndMarketableSecuritiesAmortizedCost": {
+              "value": "5179000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "CashCashEquivalentsAndMarketableSecuritiesUnrealizedGains": {
+              "value": "0",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "CashCashEquivalentsAndMarketableSecuritiesUnrealizedLosses": {
+              "value": "0",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          },
+          "us-gaap": {
+            "CashCashEquivalentsAndShortTermInvestments": {
+              "value": "5179000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "FI2016Q1_us-gaap_FairValueByFairValueHierarchyLevelAxis_us-gaap_FairValueInputsLevel2Member_us-gaap_InvestmentTypeAxis_us-gaap_AssetBackedSecuritiesMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "instant": "2016-03-31"
+          },
+          "amzn": {
+            "CashCashEquivalentsAndMarketableSecuritiesAmortizedCost": {
+              "value": "111000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "CashCashEquivalentsAndMarketableSecuritiesUnrealizedGains": {
+              "value": "0",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "CashCashEquivalentsAndMarketableSecuritiesUnrealizedLosses": {
+              "value": "1000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          },
+          "us-gaap": {
+            "CashCashEquivalentsAndShortTermInvestments": {
+              "value": "110000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "FI2016Q1_us-gaap_FairValueByFairValueHierarchyLevelAxis_us-gaap_FairValueInputsLevel2Member_us-gaap_InvestmentTypeAxis_us-gaap_FixedIncomeSecuritiesMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "instant": "2016-03-31"
+          },
+          "amzn": {
+            "CashCashEquivalentsAndMarketableSecuritiesAmortizedCost": {
+              "value": "45000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "CashCashEquivalentsAndMarketableSecuritiesUnrealizedGains": {
+              "value": "0",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "CashCashEquivalentsAndMarketableSecuritiesUnrealizedLosses": {
+              "value": "0",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          },
+          "us-gaap": {
+            "CashCashEquivalentsAndShortTermInvestments": {
+              "value": "45000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "FI2016Q1_us-gaap_FairValueByFairValueHierarchyLevelAxis_us-gaap_FairValueInputsLevel2Member_us-gaap_InvestmentTypeAxis_us-gaap_CorporateDebtSecuritiesMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "instant": "2016-03-31"
+          },
+          "amzn": {
+            "CashCashEquivalentsAndMarketableSecuritiesAmortizedCost": {
+              "value": "455000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "CashCashEquivalentsAndMarketableSecuritiesUnrealizedGains": {
+              "value": "2000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "CashCashEquivalentsAndMarketableSecuritiesUnrealizedLosses": {
+              "value": "1000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          },
+          "us-gaap": {
+            "CashCashEquivalentsAndShortTermInvestments": {
+              "value": "456000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "FI2016Q1_us-gaap_FairValueByFairValueHierarchyLevelAxis_us-gaap_FairValueInputsLevel2Member_us-gaap_InvestmentTypeAxis_us-gaap_USTreasuryAndGovernmentMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "instant": "2016-03-31"
+          },
+          "amzn": {
+            "CashCashEquivalentsAndMarketableSecuritiesAmortizedCost": {
+              "value": "2704000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "CashCashEquivalentsAndMarketableSecuritiesUnrealizedGains": {
+              "value": "3000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "CashCashEquivalentsAndMarketableSecuritiesUnrealizedLosses": {
+              "value": "2000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          },
+          "us-gaap": {
+            "CashCashEquivalentsAndShortTermInvestments": {
+              "value": "2705000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "FI2016Q1_us-gaap_FairValueByFairValueHierarchyLevelAxis_us-gaap_FairValueInputsLevel2Member_us-gaap_InvestmentTypeAxis_us-gaap_ForeignGovernmentDebtSecuritiesMember",
+          "entity": {
+            "identifier": "0001018724"
+          },
+          "period": {
+            "instant": "2016-03-31"
+          },
+          "amzn": {
+            "CashCashEquivalentsAndMarketableSecuritiesAmortizedCost": {
+              "value": "59000000",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "CashCashEquivalentsAndMarketableSecuritiesUnrealizedGains": {
+              "value": "0",
+              "unit": "usd",
+              "decimals": "-6"
+            },
+            "CashCashEquivalentsAndMarketableSecuritiesUnrealizedLosses": {
+              "value": "0",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          },
+          "us-gaap": {
+            "CashCashEquivalentsAndShortTermInvestments": {
+              "value": "59000000",
+              "unit": "usd",
+              "decimals": "-6"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

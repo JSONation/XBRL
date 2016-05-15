@@ -1,0 +1,4907 @@
+{
+  "SchemaURI": "urn:///JSONation/XBRL/APIoverGitHub/V0/Schema/",
+  "ReferenceURI": "https://www.sec.gov/edgar/searchedgar/companysearch.html",
+  "JSONData": {
+    "SourceType": "XBRL",
+    "RegistrantName": "Google Inc.",
+    "FiscalYear": "2011",
+    "FiscalYearStartDate": "",
+    "FiscalYearEndDate": "2011-12-31",
+    "FiscalPeriod": "Q2",
+    "FiscalPeriodEndDate": "2011-06-30",
+    "FilingDate": "",
+    "FinancialStatement ": {
+      "FilingRules": "EDGAR",
+      "AccountingStandards": "",
+      "Identifier": "0001288776",
+      "StockCode": "GOOG",
+      "Units": [
+        {
+          "id": "pure",
+          "measure": "pure"
+        },
+        {
+          "id": "Year",
+          "measure": "goog:Year"
+        },
+        {
+          "id": "Entity",
+          "measure": "goog:Entity"
+        },
+        {
+          "id": "shares",
+          "measure": "shares"
+        },
+        {
+          "id": "iso4217_CAD",
+          "measure": "iso4217:CAD"
+        },
+        {
+          "id": "iso4217_EUR",
+          "measure": "iso4217:EUR"
+        },
+        {
+          "id": "iso4217_GBP",
+          "measure": "iso4217:GBP"
+        },
+        {
+          "id": "iso4217_USD",
+          "measure": "iso4217:USD"
+        },
+        {
+          "id": "iso4217_USD_per_shares",
+          "divide": {
+            "unitNumerator": {
+              "measure": "iso4217:USD"
+            },
+            "unitDenominator": {
+              "measure": "shares"
+            }
+          }
+        }
+      ],
+      "Contexts": [
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "AvailableforsaleSecuritiesContinuousUnrealizedLossPositionLessThan12MonthsAggregateLosses1": {
+              "value": "90000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ConstructionInProgressGross": {
+              "value": "2433000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "DerivativeFairValueOfDerivativeLiability": {
+              "value": "1000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsExercisableIntrinsicValue1": {
+              "value": "1306000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "BusinessAcquisitionPurchasePriceAllocationAssetsAcquired": {
+              "value": "93000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisesInPeriodWeightedAverageExercisePrice": {
+              "value": "285.13",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "DeferredTaxAssetsNetCurrent": {
+              "value": "153000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AccumulatedOtherComprehensiveIncomeLossNetOfTax": {
+              "value": "603000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "LiabilitiesCurrent": {
+              "value": "7798000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageExercisePrice": {
+              "value": "347.36",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "OtherLongTermInvestments": {
+              "value": "893000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "LineOfCreditFacilityMaximumBorrowingCapacity": {
+              "value": "3000000000",
+              "unit": "iso4217_USD",
+              "decimals": "-8"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableNumber": {
+              "value": "6052830",
+              "unit": "shares",
+              "decimals": "INF"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingIntrinsicValue": {
+              "value": "1812000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearFairValue": {
+              "value": "7988000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "DeferredRevenueCurrent": {
+              "value": "489000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "DeferredTaxAssetsNetNoncurrent": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "LongTermDebtNoncurrent": {
+              "value": "2985000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableWeightedAverageExercisePrice": {
+              "value": "289.16",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "RetainedEarningsAccumulatedDeficit": {
+              "value": "32172000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "BusinessAcquisitionPurchasePriceAllocationGoodwillAmount": {
+              "value": "437000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "BusinessAcquisitionPurchasePriceAllocationGoodwillExpectedTaxDeductibleAmount": {
+              "value": "2000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AccruedLiabilitiesCurrent": {
+              "value": "1493000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "DerivativeFairValueOfDerivativeAsset": {
+              "value": "166000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsForfeituresInPeriodWeightedAverageExercisePrice": {
+              "value": "383.23",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "AccountsReceivableNetCurrent": {
+              "value": "4476000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "Assets": {
+              "value": "64861000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "DeferredRevenueNoncurrent": {
+              "value": "28000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AccruedIncomeTaxesCurrent": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AvailableForSaleSecuritiesAmortizedCost": {
+              "value": "28531000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "CommonStockValue": {
+              "value": "323000",
+              "unit": "iso4217_USD",
+              "decimals": "-3"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsVestedAndExpectedToVestExercisableAggregateIntrinsicValue": {
+              "value": "1759000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AvailableForSaleSecuritiesDebtSecurities": {
+              "value": "28624000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AvailableforsaleSecuritiesGrossUnrealizedGain": {
+              "value": "357000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "CommonStockIncludingAdditionalPaidInCapital": {
+              "value": "19216000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ShortTermDebtWeightedAverageInterestRate": {
+              "value": "0.004",
+              "unit": "pure",
+              "decimals": "3"
+            },
+            "SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm1": {
+              "value": "6.2",
+              "unit": "Year",
+              "decimals": "1"
+            },
+            "BusinessAcquisitionPurchasePriceAllocationDeferredIncomeTaxesAssetLiabilityNet": {
+              "value": "-131000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "CommonStockSharesOutstanding": {
+              "value": "322668000",
+              "unit": "shares",
+              "decimals": "-3"
+            },
+            "ForeignCurrencyCashFlowHedgeGainLossToBeReclassifiedDuringNext12Months": {
+              "value": "8000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "PreferredStockSharesAuthorized": {
+              "value": "100000000",
+              "unit": "shares",
+              "decimals": "-3"
+            },
+            "AssetsCurrent": {
+              "value": "46442000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "Goodwill": {
+              "value": "6677000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AvailableForSaleSecuritiesDebtMaturitiesAfterFiveThroughTenYearsFairValue": {
+              "value": "6457000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "FiniteLivedIntangibleAssetsAccumulatedAmortization": {
+              "value": "1305000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "OtherLiabilitiesNoncurrent": {
+              "value": "461000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AccumulatedOtherComprehensiveIncomeLossCumulativeChangesInNetGainLossFromCashFlowHedgesEffectNetOfTax": {
+              "value": "7000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "PreferredStockSharesOutstanding": {
+              "value": "0",
+              "unit": "shares",
+              "decimals": "-3"
+            },
+            "AvailableForSaleSecuritiesCurrent": {
+              "value": "28798000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "UnrecognizedTaxBenefitsThatWouldImpactEffectiveTaxRate": {
+              "value": "1183000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "CashAndCashEquivalentsAtCarryingValue": {
+              "value": "10320000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AvailableForSaleSecuritiesDebtMaturitiesAfterTenYearsFairValue": {
+              "value": "7737000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AssetsNoncurrent": {
+              "value": "18419000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsGrantsInPeriodWeightedAverageExercisePrice": {
+              "value": "582.51",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "AvailableForSaleSecuritiesDebtMaturitiesAfterOneThroughFiveYearsFairValue": {
+              "value": "6442000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "CommonStockParOrStatedValuePerShare": {
+              "value": "0.001",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "3"
+            },
+            "AvailableForSaleSecuritiesContinuousUnrealizedLossPositionLessThanTwelveMonthsFairValue": {
+              "value": "7122000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsVestedAndExpectedToVestExercisableWeightedAverageExercisePrice": {
+              "value": "343.93",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsVestedAndExpectedToVestExercisableNumber": {
+              "value": "10447805",
+              "unit": "shares",
+              "decimals": "INF"
+            },
+            "AllowanceForDoubtfulAccountsReceivableCurrent": {
+              "value": "140000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingNumber": {
+              "value": "10961543",
+              "unit": "shares",
+              "decimals": "INF"
+            },
+            "DeferredTaxLiabilitiesNoncurrent": {
+              "value": "129000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax": {
+              "value": "180000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "PropertyPlantAndEquipmentGross": {
+              "value": "13495000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AccumulatedDepreciationDepletionAndAmortizationPropertyPlantAndEquipment": {
+              "value": "4492000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "FurnitureAndFixturesGross": {
+              "value": "69000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "BusinessAcquisitionCostOfAcquiredEntityPurchasePrice": {
+              "value": "936000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "LiabilitiesAndStockholdersEquity": {
+              "value": "64861000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "PreferredStockSharesIssued": {
+              "value": "0",
+              "unit": "shares",
+              "decimals": "-3"
+            },
+            "StockholdersEquity": {
+              "value": "51991000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "CommonStockSharesIssued": {
+              "value": "322668000",
+              "unit": "shares",
+              "decimals": "-3"
+            },
+            "AvailableForSaleSecuritiesGrossUnrealizedLosses1": {
+              "value": "90000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "FiniteLivedIntangibleAssetsGross": {
+              "value": "2686000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "LiabilityForUncertainTaxPositionsNoncurrent": {
+              "value": "1469000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ShortTermBorrowings": {
+              "value": "1217000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "FiniteLivedIntangibleAssetsNet": {
+              "value": "1381000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "PreferredStockParOrStatedValuePerShare": {
+              "value": "0.001",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "3"
+            },
+            "PropertyPlantAndEquipmentNet": {
+              "value": "9003000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "CommonStockSharesAuthorized": {
+              "value": "9000000000",
+              "unit": "shares",
+              "decimals": "-3"
+            },
+            "IncomeTaxesReceivable": {
+              "value": "347000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ConvertiblePreferredStockNonredeemableOrRedeemableIssuerOptionValue": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "LeaseholdImprovementsGross": {
+              "value": "786000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AccountsPayableCurrent": {
+              "value": "567000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AccumulatedOtherComprehensiveIncomeLossForeignCurrencyTranslationAdjustmentNetOfTax": {
+              "value": "416000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "IntangibleAssetsNetExcludingGoodwill": {
+              "value": "1381000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "EmployeeRelatedLiabilitiesCurrent": {
+              "value": "1180000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "FairValueMeasurementWithUnobservableInputsReconciliationRecurringBasisAssetValue": {
+              "value": "126000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "UnrecognizedTaxBenefits": {
+              "value": "1397000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "LongTermDebtFairValue": {
+              "value": "3000000000",
+              "unit": "iso4217_USD",
+              "decimals": "-9"
+            },
+            "CashCashEquivalentsAndShortTermInvestments": {
+              "value": "39118000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          },
+          "goog": {
+            "WarrantsHeldBySelectedFinancialInstitutionsUnderTSOProgramWeightedAverageRemainingContractualTerm": {
+              "value": "0.9",
+              "unit": "Year",
+              "decimals": "1"
+            },
+            "SecuritiesLendingPayable": {
+              "value": "1936000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AuctionRateSecuritiesUnrealizedLoss": {
+              "value": "19000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "InformationTechnologyAssetsGross": {
+              "value": "5577000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "LandAndBuildingsGross": {
+              "value": "4630000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AuctionRateSecuritiesAtFairValue": {
+              "value": "126000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "PrepaidRevenueShareExpensesAndOtherAssetsNoncurrent": {
+              "value": "465000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AccruedRevenueShare": {
+              "value": "916000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "SecuritiesOwnedAndLoaned": {
+              "value": "4977000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "CashCollateralReceived": {
+              "value": "916000000",
+              "unit": "iso4217_USD",
+              "decimals": "-5"
+            },
+            "AccumulatedOtherComprehensiveIncomeLossCumulativeChangesInNetGainLossFromCashFlowHedgesEffectPretax": {
+              "value": "11000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "PrepaidRevenueShareExpensesAndOtherAssetsCurrent": {
+              "value": "1328000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "MaximumUSDLimitCommercialPaperProgram": {
+              "value": "3000000000",
+              "unit": "iso4217_USD",
+              "decimals": "-8"
+            },
+            "OutstandingBalanceUnderCommercialPaperProgram": {
+              "value": "749000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "OutstandingBalanceUnderRevolvingCreditFacility": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-9"
+            },
+            "ReceivableUnderReverseRepurchaseAgreements": {
+              "value": "1020000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableAndVestedNumber": {
+              "value": "6023457",
+              "unit": "shares",
+              "decimals": "INF"
+            },
+            "WarrantsHeldBySelectedFinancialInstitutionsUnderTSOProgram": {
+              "value": "900000",
+              "unit": "shares",
+              "decimals": "-5"
+            },
+            "ClosingStockPrice": {
+              "value": "506.38",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "ShareBasedCompensationOptionsOutstandingExercisePriceRangeLowerRangeLimit": {
+              "value": "0.30",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "ShareBasedCompensationOptionsOutstandingExercisePriceRangeUpperRangeLimit": {
+              "value": "710.84",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableAndVestedWeightedAverageExercisePrice": {
+              "value": "290.22",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "WarrantsHeldBySelectedFinancialInstitutionsUnderTSOProgramWeightedAverageExercisePrice": {
+              "value": "318.54",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "AuctionRateSecuritiesWeightedAverageInterestRate": {
+              "value": "0.02",
+              "unit": "pure",
+              "decimals": "2"
+            },
+            "AdjustmentPointsCurrentMarketConditions": {
+              "value": "0.1250",
+              "unit": "pure",
+              "decimals": "INF"
+            },
+            "AdjustmentPointsLackOfActiveMarket": {
+              "value": "0.0400",
+              "unit": "pure",
+              "decimals": "INF"
+            },
+            "DebtInstrumentUnamortizedDiscountAtBalanceSheetDate": {
+              "value": "15000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_91_20110630_0",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-04-01",
+            "endDate": "2011-06-30"
+          },
+          "us-gaap": {
+            "AvailableForSaleSecuritiesGrossRealizedGains": {
+              "value": "94000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "InvestmentIncomeInterest": {
+              "value": "212000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisesInPeriodTotalIntrinsicValue": {
+              "value": "68000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "SellingAndMarketingExpense": {
+              "value": "1091000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "FairValueMeasurementWithUnobservableInputsReconciliationRecurringBasisAssetPurchasesSalesIssuancesSettlements": {
+              "value": "-11000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "OtherNonoperatingIncomeExpense": {
+              "value": "-11000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease": {
+              "value": "119000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "CostsAndExpenses": {
+              "value": "6145000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsRiskFreeInterestRate": {
+              "value": "0.025",
+              "unit": "pure",
+              "decimals": "3"
+            },
+            "ComprehensiveIncomeNetOfTax": {
+              "value": "2726000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments": {
+              "value": "3085000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AvailableForSaleSecuritiesGrossRealizedLosses": {
+              "value": "19000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "EarningsPerShareDiluted": {
+              "value": "7.68",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "OtherComprehensiveIncomeUnrealizedGainLossOnDerivativesArisingDuringPeriodNetOfTax": {
+              "value": "-6000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsGrantsInPeriodWeightedAverageGrantDateFairValue": {
+              "value": "209.97",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "NetIncomeLoss": {
+              "value": "2505000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "NonoperatingIncomeExpense": {
+              "value": "204000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ResearchAndDevelopmentExpense": {
+              "value": "1234000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "FiniteLivedIntangibleAssetsAmortizationExpense": {
+              "value": "106000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "CostOfRevenue": {
+              "value": "3172000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "EarningsPerShareBasic": {
+              "value": "7.77",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "SalesRevenueNet": {
+              "value": "9026000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "OperatingIncomeLoss": {
+              "value": "2881000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsExpectedTerm": {
+              "value": "6.2",
+              "unit": "Year",
+              "decimals": "1"
+            },
+            "IncomeTaxExpenseBenefit": {
+              "value": "580000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsExpectedDividendRate": {
+              "value": "0",
+              "unit": "pure",
+              "decimals": "0"
+            },
+            "OtherComprehensiveIncomeUnrealizedGainLossOnDerivativesArisingDuringPeriodTax": {
+              "value": "4000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "OtherComprehensiveIncomeUnrealizedHoldingGainLossOnSecuritiesArisingDuringPeriodNetOfTax": {
+              "value": "108000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "GeneralAndAdministrativeExpense": {
+              "value": "648000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsExpectedVolatilityRate": {
+              "value": "0.33",
+              "unit": "pure",
+              "decimals": "2"
+            },
+            "MarketableSecuritiesRealizedGainLoss": {
+              "value": "75000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          },
+          "goog": {
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardGrantDateFairValueOfOptionsVested": {
+              "value": "123000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ForeignCurrencyExchangeGainLossNet": {
+              "value": "-72000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ChargeRelatedToPotentialResolutionOfInvestigation": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "OtherComprehensiveIncomeAvailableforsaleSecuritiesTaxes": {
+              "value": "19000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_181_20110630_0",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-01-01",
+            "endDate": "2011-06-30"
+          },
+          "xbrldei": {
+            "DocumentFiscalPeriodFocus": "Q2",
+            "TradingSymbol": "GOOG",
+            "EntityRegistrantName": "Google Inc.",
+            "AmendmentFlag": "false",
+            "EntityFilerCategory": "Large Accelerated Filer",
+            "DocumentFiscalYearFocus": "2011",
+            "DocumentType": "10-Q",
+            "DocumentPeriodEndDate": "2011-06-30",
+            "EntityCentralIndexKey": "0001288776",
+            "CurrentFiscalYearEndDate": "--12-31"
+          },
+          "us-gaap": {
+            "AvailableForSaleSecuritiesGrossRealizedGains": {
+              "value": "135000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "PaymentsForRepurchaseOfCommonStock": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "FutureAmortizationExpenseRemainderOfFiscalYear": {
+              "value": "206000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "FutureAmortizationExpenseYearTwo": {
+              "value": "259000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "NetCashProvidedByUsedInInvestingActivities": {
+              "value": "-11035000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "InvestmentIncomeInterest": {
+              "value": "402000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisesInPeriodTotalIntrinsicValue": {
+              "value": "313000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "SellingAndMarketingExpense": {
+              "value": "2117000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "FairValueMeasurementWithUnobservableInputsReconciliationRecurringBasisAssetPurchasesSalesIssuancesSettlements": {
+              "value": "-27000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "OtherNonoperatingIncomeExpense": {
+              "value": "-4000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "IncreaseDecreaseInAccountsReceivable": {
+              "value": "24000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "IncomeTaxesPaid": {
+              "value": "864000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease": {
+              "value": "457000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "CostsAndExpenses": {
+              "value": "12424000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsRiskFreeInterestRate": {
+              "value": "0.024",
+              "unit": "pure",
+              "decimals": "3"
+            },
+            "NetCashProvidedByUsedInOperatingActivities": {
+              "value": "6691000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsVestedAndExpectedToVestExercisableWeightedAverageRemainingContractualTerm": {
+              "value": "6.2",
+              "unit": "Year",
+              "decimals": "1"
+            },
+            "ComprehensiveIncomeNetOfTax": {
+              "value": "4769000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "FutureAmortizationExpenseYearFive": {
+              "value": "68000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "IncreaseDecreaseInIncomeTaxes": {
+              "value": "-98000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "StockIssuedDuringPeriodSharesStockOptionsExercised": {
+              "value": "1019763",
+              "unit": "shares",
+              "decimals": "INF"
+            },
+            "IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments": {
+              "value": "5478000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AvailableForSaleSecuritiesGrossRealizedLosses": {
+              "value": "33000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ShareBasedCompensation": {
+              "value": "866000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "EarningsPerShareDiluted": {
+              "value": "13.19",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "Depreciation": {
+              "value": "648000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "PaymentsToAcquireMarketableSecurities": {
+              "value": "20955000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableWeightedAverageRemainingContractualTerm": {
+              "value": "5.5",
+              "unit": "Year",
+              "decimals": "1"
+            },
+            "IncreaseDecreaseInAccruedLiabilities": {
+              "value": "297000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "DeferredIncomeTaxExpenseBenefit": {
+              "value": "464000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "OtherComprehensiveIncomeUnrealizedGainLossOnDerivativesArisingDuringPeriodNetOfTax": {
+              "value": "-78000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsGrantsInPeriodWeightedAverageGrantDateFairValue": {
+              "value": "210.28",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "NetIncomeLoss": {
+              "value": "4304000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "NonoperatingIncomeExpense": {
+              "value": "300000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ResearchAndDevelopmentExpense": {
+              "value": "2456000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ExcessTaxBenefitFromShareBasedCompensationFinancingActivities": {
+              "value": "33000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ProceedsFromDebtNetOfIssuanceCosts": {
+              "value": "8030000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "LineOfCreditFacilityExpirationDate": "June 30, 2013",
+            "PaymentsToAcquireOtherInvestments": {
+              "value": "343000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "FiniteLivedIntangibleAssetsAmortizationExpense": {
+              "value": "201000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "CostOfRevenue": {
+              "value": "6107000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsGrantsInPeriod": {
+              "value": "589448",
+              "unit": "shares",
+              "decimals": "INF"
+            },
+            "FutureAmortizationExpenseYearOne": {
+              "value": "368000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ProceedsFromSaleAndMaturityOfMarketableSecurities": {
+              "value": "13627000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "GoodwillAcquiredDuringPeriod": {
+              "value": "437000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ExcessTaxBenefitFromShareBasedCompensationOperatingActivities": {
+              "value": "33000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "PaymentsToAcquirePropertyPlantAndEquipment": {
+              "value": "1807000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "EarningsPerShareBasic": {
+              "value": "13.37",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "AmortizationOfIntangibleAssets": {
+              "value": "208000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "SalesRevenueNet": {
+              "value": "17602000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "OperatingIncomeLoss": {
+              "value": "5178000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "OtherNoncashIncomeExpense": {
+              "value": "-55000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "UseOfEstimates": "<div>\n<p style=\"MARGIN-TOP: 18px; MARGIN-BOTTOM: 0px; MARGIN-LEFT: 2%\">\n<font style=\"FONT-FAMILY: ARIAL\" size=\"2\"><b><i>Use of\nEstimates</i></b></font></p>\n<p style=\"MARGIN-TOP: 6px; TEXT-INDENT: 4%; MARGIN-BOTTOM: 0px\">\n<font style=\"FONT-FAMILY: ARIAL\" size=\"2\">The preparation of\nconsolidated financial statements in conformity with GAAP requires\nus to make estimates and assumptions that affect the amounts\nreported and disclosed in the financial statements and the\naccompanying notes. Actual results could differ materially from\nthese estimates. On an ongoing basis, we evaluate our estimates,\nincluding those related to the accounts receivable and sales\nallowances, fair values of financial instruments, intangible assets\nand goodwill, useful lives of intangible assets and property and\nequipment, fair values of stock-based awards, income taxes, and\ncontingent liabilities, among others. We base our estimates on\nhistorical experience and on various other assumptions that are\nbelieved to be reasonable, the results of which form the basis for\nmaking judgments about the carrying values of assets and\nliabilities.</font></p>\n</div>",
+            "IncreaseDecreaseInAccountsPayable": {
+              "value": "77000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "FutureAmortizationExpenseYearThree": {
+              "value": "200000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsExpectedTerm": {
+              "value": "5.8",
+              "unit": "Year",
+              "decimals": "1"
+            },
+            "IncomeTaxExpenseBenefit": {
+              "value": "1174000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "CashAndCashEquivalentsPeriodIncreaseDecrease": {
+              "value": "-3310000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "EffectOfExchangeRateOnCashAndCashEquivalents": {
+              "value": "187000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsExpectedDividendRate": {
+              "value": "0",
+              "unit": "pure",
+              "decimals": "0"
+            },
+            "RepaymentsOfDebt": {
+              "value": "7304000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "OtherComprehensiveIncomeUnrealizedGainLossOnDerivativesArisingDuringPeriodTax": {
+              "value": "55000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsForfeituresAndExpirationsInPeriod": {
+              "value": "133564",
+              "unit": "shares",
+              "decimals": "INF"
+            },
+            "OtherComprehensiveIncomeUnrealizedHoldingGainLossOnSecuritiesArisingDuringPeriodNetOfTax": {
+              "value": "86000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "IncreaseDecreaseInDeferredRevenue": {
+              "value": "69000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "GeneralAndAdministrativeExpense": {
+              "value": "1244000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "NetCashProvidedByUsedInFinancingActivities": {
+              "value": "847000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "FutureAmortizationExpenseYearFour": {
+              "value": "99000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsExpectedVolatilityRate": {
+              "value": "0.33",
+              "unit": "pure",
+              "decimals": "2"
+            },
+            "MarketableSecuritiesRealizedGainLoss": {
+              "value": "102000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          },
+          "goog": {
+            "NetProceedsPaymentsRelatedToStockBasedAwardActivities": {
+              "value": "-88000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardGrantDateFairValueOfOptionsVested": {
+              "value": "250000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "IncreaseDecreaseInPrepaidRevenueShareExpensesAndOtherAssets": {
+              "value": "148000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "IncreaseDecreaseInAccruedRevenueShare": {
+              "value": "6000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AcquisitionsNetofCashAcquiredAndPurchasesOfIntangibleandOtherAssets": {
+              "value": "863000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "GoodwillAdjustments": {
+              "value": "-16000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ValueOfSharesSoldToSelectedFinancialInstitutionsUnderTSOProgram": {
+              "value": "4000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "FutureAmortizationExpenseThereafter": {
+              "value": "181000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "InvestmentsInReverseRepurchaseAgreements": {
+              "value": "270000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "StockIssuedVestedOptionsAssumed": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ForeignCurrencyExchangeGainLossNet": {
+              "value": "-200000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "NumberOfSharesSoldToSelectedFinancialInstitutionsUnderTSOProgram": {
+              "value": "25832",
+              "unit": "shares",
+              "decimals": "INF"
+            },
+            "SharesSoldToSelectedFinancialInstitutionsAveragePerSharePriceUnderTSOProgram": {
+              "value": "150.51",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "SharesSoldToSelectedFinancialInstitutionsAveragePremiumPerSharePriceUnderTSOProgram": {
+              "value": "18.26",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "ChargeRelatedToPotentialResolutionOfInvestigation": {
+              "value": "500000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "CashCollateralReceivedFromReturnedFromSecuritiesLending": {
+              "value": "-424000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "OtherComprehensiveIncomeAvailableforsaleSecuritiesTaxes": {
+              "value": "2000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_441729x455639",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "EmployeeServiceShareBasedCompensationNonvestedAwardsTotalCompensationCostNotYetRecognized": {
+              "value": "777000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          },
+          "goog": {
+            "EmployeeServiceShareBasedCompensationUnrecognizedCompensationCostsNonvestedAwardsWeightedAveragePeriodOfRecognition": {
+              "value": "2.4",
+              "unit": "Year",
+              "decimals": "1"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_441729x469899",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "EmployeeServiceShareBasedCompensationNonvestedAwardsTotalCompensationCostNotYetRecognized": {
+              "value": "4081000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsNonvestedNumber": {
+              "value": "9812997",
+              "unit": "shares",
+              "decimals": "INF"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsForfeitedInPeriodWeightedAverageGrantDateFairValue": {
+              "value": "515.27",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsNonvestedWeightedAverageGrantDateFairValue": {
+              "value": "514.01",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            }
+          },
+          "goog": {
+            "EmployeeServiceShareBasedCompensationUnrecognizedCompensationCostsNonvestedAwardsWeightedAveragePeriodOfRecognition": {
+              "value": "3.2",
+              "unit": "Year",
+              "decimals": "1"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsExpectedToVestNumber": {
+              "value": "8790483",
+              "unit": "shares",
+              "decimals": "INF"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsExpectedToVestWeightedAverageGrantDateFairValue": {
+              "value": "514.01",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_444422x467640",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageExercisePrice": {
+              "value": "27.93",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableNumber": {
+              "value": "403387",
+              "unit": "shares",
+              "decimals": "INF"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableWeightedAverageExercisePrice": {
+              "value": "27.46",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm1": {
+              "value": "3.0",
+              "unit": "Year",
+              "decimals": "1"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingNumber": {
+              "value": "406917",
+              "unit": "shares",
+              "decimals": "INF"
+            }
+          },
+          "goog": {
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableAndVestedNumber": {
+              "value": "374014",
+              "unit": "shares",
+              "decimals": "INF"
+            },
+            "ShareBasedCompensationOptionsOutstandingExercisePriceRangeLowerRangeLimit": {
+              "value": "0.30",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "ShareBasedCompensationOptionsOutstandingExercisePriceRangeUpperRangeLimit": {
+              "value": "94.80",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableAndVestedWeightedAverageExercisePrice": {
+              "value": "23.96",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_444422x467641",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageExercisePrice": {
+              "value": "177.38",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableNumber": {
+              "value": "546258",
+              "unit": "shares",
+              "decimals": "INF"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableWeightedAverageExercisePrice": {
+              "value": "177.38",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm1": {
+              "value": "3.1",
+              "unit": "Year",
+              "decimals": "1"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingNumber": {
+              "value": "546258",
+              "unit": "shares",
+              "decimals": "INF"
+            }
+          },
+          "goog": {
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableAndVestedNumber": {
+              "value": "546258",
+              "unit": "shares",
+              "decimals": "INF"
+            },
+            "ShareBasedCompensationOptionsOutstandingExercisePriceRangeLowerRangeLimit": {
+              "value": "117.84",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "ShareBasedCompensationOptionsOutstandingExercisePriceRangeUpperRangeLimit": {
+              "value": "198.41",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableAndVestedWeightedAverageExercisePrice": {
+              "value": "177.38",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_444422x467642",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageExercisePrice": {
+              "value": "274.55",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableNumber": {
+              "value": "584194",
+              "unit": "shares",
+              "decimals": "INF"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableWeightedAverageExercisePrice": {
+              "value": "274.41",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm1": {
+              "value": "3.8",
+              "unit": "Year",
+              "decimals": "1"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingNumber": {
+              "value": "590340",
+              "unit": "shares",
+              "decimals": "INF"
+            }
+          },
+          "goog": {
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableAndVestedNumber": {
+              "value": "584194",
+              "unit": "shares",
+              "decimals": "INF"
+            },
+            "ShareBasedCompensationOptionsOutstandingExercisePriceRangeLowerRangeLimit": {
+              "value": "205.96",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "ShareBasedCompensationOptionsOutstandingExercisePriceRangeUpperRangeLimit": {
+              "value": "298.86",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableAndVestedWeightedAverageExercisePrice": {
+              "value": "274.41",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_444422x467643",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageExercisePrice": {
+              "value": "309.65",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableNumber": {
+              "value": "3962714",
+              "unit": "shares",
+              "decimals": "INF"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableWeightedAverageExercisePrice": {
+              "value": "309.71",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm1": {
+              "value": "5.7",
+              "unit": "Year",
+              "decimals": "1"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingNumber": {
+              "value": "6265028",
+              "unit": "shares",
+              "decimals": "INF"
+            }
+          },
+          "goog": {
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableAndVestedNumber": {
+              "value": "3962714",
+              "unit": "shares",
+              "decimals": "INF"
+            },
+            "ShareBasedCompensationOptionsOutstandingExercisePriceRangeLowerRangeLimit": {
+              "value": "300.97",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "ShareBasedCompensationOptionsOutstandingExercisePriceRangeUpperRangeLimit": {
+              "value": "399.00",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableAndVestedWeightedAverageExercisePrice": {
+              "value": "309.71",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_444422x467644",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageExercisePrice": {
+              "value": "439.19",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableNumber": {
+              "value": "452333",
+              "unit": "shares",
+              "decimals": "INF"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableWeightedAverageExercisePrice": {
+              "value": "437.06",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm1": {
+              "value": "7.4",
+              "unit": "Year",
+              "decimals": "1"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingNumber": {
+              "value": "1011482",
+              "unit": "shares",
+              "decimals": "INF"
+            }
+          },
+          "goog": {
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableAndVestedNumber": {
+              "value": "452333",
+              "unit": "shares",
+              "decimals": "INF"
+            },
+            "ShareBasedCompensationOptionsOutstandingExercisePriceRangeLowerRangeLimit": {
+              "value": "401.78",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "ShareBasedCompensationOptionsOutstandingExercisePriceRangeUpperRangeLimit": {
+              "value": "499.07",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableAndVestedWeightedAverageExercisePrice": {
+              "value": "437.06",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_444422x467645",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageExercisePrice": {
+              "value": "529.46",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableNumber": {
+              "value": "101546",
+              "unit": "shares",
+              "decimals": "INF"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableWeightedAverageExercisePrice": {
+              "value": "545.95",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm1": {
+              "value": "9.0",
+              "unit": "Year",
+              "decimals": "1"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingNumber": {
+              "value": "1911044",
+              "unit": "shares",
+              "decimals": "INF"
+            }
+          },
+          "goog": {
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableAndVestedNumber": {
+              "value": "101546",
+              "unit": "shares",
+              "decimals": "INF"
+            },
+            "ShareBasedCompensationOptionsOutstandingExercisePriceRangeLowerRangeLimit": {
+              "value": "500.03",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "ShareBasedCompensationOptionsOutstandingExercisePriceRangeUpperRangeLimit": {
+              "value": "594.97",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableAndVestedWeightedAverageExercisePrice": {
+              "value": "545.95",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_444422x467646",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageExercisePrice": {
+              "value": "612.34",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableNumber": {
+              "value": "2328",
+              "unit": "shares",
+              "decimals": "INF"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableWeightedAverageExercisePrice": {
+              "value": "630.29",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm1": {
+              "value": "9.5",
+              "unit": "Year",
+              "decimals": "1"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingNumber": {
+              "value": "230394",
+              "unit": "shares",
+              "decimals": "INF"
+            }
+          },
+          "goog": {
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableAndVestedNumber": {
+              "value": "2328",
+              "unit": "shares",
+              "decimals": "INF"
+            },
+            "ShareBasedCompensationOptionsOutstandingExercisePriceRangeLowerRangeLimit": {
+              "value": "605.49",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "ShareBasedCompensationOptionsOutstandingExercisePriceRangeUpperRangeLimit": {
+              "value": "699.35",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableAndVestedWeightedAverageExercisePrice": {
+              "value": "630.29",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_444422x467647",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageExercisePrice": {
+              "value": "710.84",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableNumber": {
+              "value": "70",
+              "unit": "shares",
+              "decimals": "INF"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableWeightedAverageExercisePrice": {
+              "value": "710.84",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm1": {
+              "value": "6.5",
+              "unit": "Year",
+              "decimals": "1"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingNumber": {
+              "value": "80",
+              "unit": "shares",
+              "decimals": "INF"
+            }
+          },
+          "goog": {
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableAndVestedNumber": {
+              "value": "70",
+              "unit": "shares",
+              "decimals": "INF"
+            },
+            "ShareBasedCompensationOptionsOutstandingExercisePriceRangeLowerRangeLimit": {
+              "value": "710.84",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "ShareBasedCompensationOptionsOutstandingExercisePriceRangeUpperRangeLimit": {
+              "value": "710.84",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableAndVestedWeightedAverageExercisePrice": {
+              "value": "710.84",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_445288x442450",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "AvailableforsaleSecuritiesContinuousUnrealizedLossPositionLessThan12MonthsAggregateLosses1": {
+              "value": "18000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AvailableForSaleSecuritiesAmortizedCost": {
+              "value": "5508000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AvailableforsaleSecuritiesGrossUnrealizedGain": {
+              "value": "104000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AvailableForSaleSecuritiesCurrent": {
+              "value": "5594000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AvailableForSaleSecuritiesContinuousUnrealizedLossPositionLessThanTwelveMonthsFairValue": {
+              "value": "1146000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AvailableForSaleSecuritiesGrossUnrealizedLosses1": {
+              "value": "18000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_445288x445395",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "AvailableforsaleSecuritiesContinuousUnrealizedLossPositionLessThan12MonthsAggregateLosses1": {
+              "value": "47000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AvailableForSaleSecuritiesAmortizedCost": {
+              "value": "7495000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AvailableforsaleSecuritiesGrossUnrealizedGain": {
+              "value": "167000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AvailableForSaleSecuritiesCurrent": {
+              "value": "7615000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AvailableForSaleSecuritiesContinuousUnrealizedLossPositionLessThanTwelveMonthsFairValue": {
+              "value": "2626000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AvailableForSaleSecuritiesGrossUnrealizedLosses1": {
+              "value": "47000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_445288x447313",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "AvailableForSaleSecuritiesAmortizedCost": {
+              "value": "171000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AvailableforsaleSecuritiesGrossUnrealizedGain": {
+              "value": "3000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AvailableForSaleSecuritiesCurrent": {
+              "value": "174000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AvailableForSaleSecuritiesGrossUnrealizedLosses1": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_445288x449006",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "AvailableforsaleSecuritiesContinuousUnrealizedLossPositionLessThan12MonthsAggregateLosses1": {
+              "value": "5000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AvailableForSaleSecuritiesAmortizedCost": {
+              "value": "2049000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AvailableforsaleSecuritiesGrossUnrealizedGain": {
+              "value": "39000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AvailableForSaleSecuritiesCurrent": {
+              "value": "2083000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AvailableForSaleSecuritiesContinuousUnrealizedLossPositionLessThanTwelveMonthsFairValue": {
+              "value": "794000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AvailableForSaleSecuritiesGrossUnrealizedLosses1": {
+              "value": "5000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_445288x451793",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "AvailableForSaleSecuritiesAmortizedCost": {
+              "value": "382000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AvailableforsaleSecuritiesGrossUnrealizedGain": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AvailableForSaleSecuritiesCurrent": {
+              "value": "382000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AvailableForSaleSecuritiesGrossUnrealizedLosses1": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_445288x454985",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "AvailableForSaleSecuritiesAmortizedCost": {
+              "value": "2769000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AvailableforsaleSecuritiesGrossUnrealizedGain": {
+              "value": "3000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AvailableForSaleSecuritiesCurrent": {
+              "value": "2772000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AvailableForSaleSecuritiesGrossUnrealizedLosses1": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_445288x455617",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "AvailableForSaleSecuritiesAmortizedCost": {
+              "value": "2883000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AvailableforsaleSecuritiesGrossUnrealizedGain": {
+              "value": "22000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AvailableForSaleSecuritiesCurrent": {
+              "value": "2905000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AvailableForSaleSecuritiesGrossUnrealizedLosses1": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_445288x467656",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "AvailableforsaleSecuritiesContinuousUnrealizedLossPositionLessThan12MonthsAggregateLosses1": {
+              "value": "20000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AvailableForSaleSecuritiesAmortizedCost": {
+              "value": "7274000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AvailableforsaleSecuritiesGrossUnrealizedGain": {
+              "value": "19000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AvailableForSaleSecuritiesCurrent": {
+              "value": "7273000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AvailableForSaleSecuritiesContinuousUnrealizedLossPositionLessThanTwelveMonthsFairValue": {
+              "value": "2556000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "AvailableForSaleSecuritiesGrossUnrealizedLosses1": {
+              "value": "20000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_450407x454319",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "AssetsFairValueDisclosure": {
+              "value": "35063000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "LiabilitiesFairValueDisclosure": {
+              "value": "1000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "DerivativeFinancialInstrumentsLiabilitiesFairValueDisclosure": {
+              "value": "1000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "DerivativeAssets": {
+              "value": "166000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          },
+          "goog": {
+            "AuctionRateSecuritiesAtFairValue": {
+              "value": "126000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_451532x479087",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "NotionalAmountOfInterestRateDerivativeInstrumentsNotDesignatedAsHedgingInstruments": {
+              "value": "200000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_452537x468974",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "BusinessAcquisitionPurchasePriceAllocationAssetsAcquired": {
+              "value": "91000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "BusinessAcquisitionPurchasePriceAllocationGoodwillAmount": {
+              "value": "320000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "BusinessAcquisitionPurchasePriceAllocationDeferredIncomeTaxesAssetLiabilityNet": {
+              "value": "-129000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "BusinessAcquisitionCostOfAcquiredEntityPurchasePrice": {
+              "value": "676000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_452537x469659",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "BusinessAcquisitionPurchasePriceAllocationAssetsAcquired": {
+              "value": "2000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "BusinessAcquisitionPurchasePriceAllocationGoodwillAmount": {
+              "value": "117000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "BusinessAcquisitionPurchasePriceAllocationDeferredIncomeTaxesAssetLiabilityNet": {
+              "value": "-2000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "BusinessAcquisitionCostOfAcquiredEntityPurchasePrice": {
+              "value": "260000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_452537x483781",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "BusinessAcquisitionCostOfAcquiredEntityPurchasePrice": {
+              "value": "260000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_453257x447425",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "CommonStockValue": {
+              "value": "69000",
+              "unit": "iso4217_USD",
+              "decimals": "-3"
+            },
+            "CommonStockSharesOutstanding": {
+              "value": "68838000",
+              "unit": "shares",
+              "decimals": "-3"
+            },
+            "CommonStockSharesIssued": {
+              "value": "68838000",
+              "unit": "shares",
+              "decimals": "-3"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_453257x450712",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "CommonStockValue": {
+              "value": "254000",
+              "unit": "iso4217_USD",
+              "decimals": "-3"
+            },
+            "CommonStockSharesOutstanding": {
+              "value": "253830000",
+              "unit": "shares",
+              "decimals": "-3"
+            },
+            "CommonStockSharesIssued": {
+              "value": "253830000",
+              "unit": "shares",
+              "decimals": "-3"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_453412x468628",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "DebtInstrumentFaceAmount": {
+              "value": "3000000000",
+              "unit": "iso4217_USD",
+              "decimals": "-8"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_453782x473325",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "DebtInstrumentInterestRateStatedPercentage": {
+              "value": "0.010",
+              "unit": "pure",
+              "decimals": "3"
+            },
+            "DebtInstrumentFaceAmount": {
+              "value": "468000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_454115x450059",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "BusinessAcquisitionPurchasePriceAllocationAmortizableIntangibleAssets": {
+              "value": "224000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "FiniteLivedIntangibleAssetsAccumulatedAmortization": {
+              "value": "486000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "FiniteLivedIntangibleAssetsGross": {
+              "value": "1174000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "FiniteLivedIntangibleAssetsNet": {
+              "value": "688000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_454115x467648",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "BusinessAcquisitionPurchasePriceAllocationAmortizableIntangibleAssets": {
+              "value": "288000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "FiniteLivedIntangibleAssetsAccumulatedAmortization": {
+              "value": "594000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "FiniteLivedIntangibleAssetsGross": {
+              "value": "1203000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "FiniteLivedIntangibleAssetsNet": {
+              "value": "609000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_454115x467649",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "BusinessAcquisitionPurchasePriceAllocationAmortizableIntangibleAssets": {
+              "value": "25000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "FiniteLivedIntangibleAssetsAccumulatedAmortization": {
+              "value": "225000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "FiniteLivedIntangibleAssetsGross": {
+              "value": "309000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "FiniteLivedIntangibleAssetsNet": {
+              "value": "84000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_454554x452748",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "CashAndCashEquivalentsAtCarryingValue": {
+              "value": "4347000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_454689x480412",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "DebtInstrumentInterestRateStatedPercentage": {
+              "value": "0.0125",
+              "unit": "pure",
+              "decimals": "4"
+            }
+          },
+          "goog": {
+            "LongTermDebtParValue": {
+              "value": "1000000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_454689x480413",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "DebtInstrumentInterestRateStatedPercentage": {
+              "value": "0.02125",
+              "unit": "pure",
+              "decimals": "5"
+            }
+          },
+          "goog": {
+            "LongTermDebtParValue": {
+              "value": "1000000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_454689x480414",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "DebtInstrumentInterestRateStatedPercentage": {
+              "value": "0.03625",
+              "unit": "pure",
+              "decimals": "5"
+            }
+          },
+          "goog": {
+            "LongTermDebtParValue": {
+              "value": "1000000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_456497x442450",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "AvailableForSaleSecuritiesCurrent": {
+              "value": "5594000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_456497x445395",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "AvailableForSaleSecuritiesCurrent": {
+              "value": "7615000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_456497x447313",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "AvailableForSaleSecuritiesCurrent": {
+              "value": "174000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_456497x449006",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "AvailableForSaleSecuritiesCurrent": {
+              "value": "2083000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_456497x451793",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "AvailableForSaleSecuritiesCurrent": {
+              "value": "382000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_456497x454985",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "AvailableForSaleSecuritiesCurrent": {
+              "value": "2772000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_456497x455617",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "AvailableForSaleSecuritiesCurrent": {
+              "value": "2905000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_456497x467656",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "AvailableForSaleSecuritiesCurrent": {
+              "value": "7273000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_476558x446398",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "AssetsNoncurrent": {
+              "value": "15221000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_476558x469681",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "AssetsNoncurrent": {
+              "value": "3198000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110721_0_453257x447425",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-07-21"
+          },
+          "xbrldei": {
+            "EntityCommonStockSharesOutstanding": {
+              "value": "68667853",
+              "unit": "shares",
+              "decimals": "INF"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110721_0_453257x450712",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-07-21"
+          },
+          "xbrldei": {
+            "EntityCommonStockSharesOutstanding": {
+              "value": "254219910",
+              "unit": "shares",
+              "decimals": "INF"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_91_20110630_0_441306x445999",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-04-01",
+            "endDate": "2011-06-30"
+          },
+          "us-gaap": {
+            "DerivativeInstrumentsNotDesignatedAsHedgingInstrumentsGainLossNet": {
+              "value": "-16000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_91_20110630_0_441306x446623",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-04-01",
+            "endDate": "2011-06-30"
+          },
+          "goog": {
+            "DerivativeInstrumentsDesignatedAsFairValueHedgesGainLossNet": {
+              "value": "-3000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_91_20110630_0_441686x443293",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-04-01",
+            "endDate": "2011-06-30"
+          },
+          "us-gaap": {
+            "AllocatedShareBasedCompensationExpense": {
+              "value": "74000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_91_20110630_0_441686x453468",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-04-01",
+            "endDate": "2011-06-30"
+          },
+          "us-gaap": {
+            "AllocatedShareBasedCompensationExpense": {
+              "value": "51000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_91_20110630_0_441686x454085",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-04-01",
+            "endDate": "2011-06-30"
+          },
+          "us-gaap": {
+            "AllocatedShareBasedCompensationExpense": {
+              "value": "63000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_91_20110630_0_441686x456209",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-04-01",
+            "endDate": "2011-06-30"
+          },
+          "us-gaap": {
+            "AllocatedShareBasedCompensationExpense": {
+              "value": "247000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_91_20110630_0_453257x447425",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-04-01",
+            "endDate": "2011-06-30"
+          },
+          "us-gaap": {
+            "EarningsPerShareDiluted": {
+              "value": "7.68",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "WeightedAverageNumberOfSharesIssuedBasic": {
+              "value": "69148000",
+              "unit": "shares",
+              "decimals": "-3"
+            },
+            "NetIncomeLossAvailableToCommonStockholdersDiluted": {
+              "value": "532000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "NetIncomeLoss": {
+              "value": "538000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "IncrementalCommonSharesAttributableToShareBasedPaymentArrangements": {
+              "value": "43000",
+              "unit": "shares",
+              "decimals": "-3"
+            },
+            "EarningsPerShareBasic": {
+              "value": "7.77",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "WeightedAverageNumberOfSharesOutstandingBasic": {
+              "value": "69148000",
+              "unit": "shares",
+              "decimals": "-3"
+            },
+            "WeightedAverageNumberOfDilutedSharesOutstanding": {
+              "value": "69191000",
+              "unit": "shares",
+              "decimals": "-3"
+            }
+          },
+          "goog": {
+            "ReallocationOfUndistributedEarningsAsAResultOfConversionOfShares": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ReallocationOfUndistributedEarnings": {
+              "value": "6000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "IncrementalCommonSharesAttributableToConversionOfCommonStock": {
+              "value": "0",
+              "unit": "shares",
+              "decimals": "-3"
+            },
+            "IncrementalCommonSharesAttributableToRestrictedSharesAndRestrictedStockUnits": {
+              "value": "0",
+              "unit": "shares",
+              "decimals": "-3"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_91_20110630_0_453257x450712",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-04-01",
+            "endDate": "2011-06-30"
+          },
+          "us-gaap": {
+            "EarningsPerShareDiluted": {
+              "value": "7.68",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "WeightedAverageNumberOfSharesIssuedBasic": {
+              "value": "253080000",
+              "unit": "shares",
+              "decimals": "-3"
+            },
+            "NetIncomeLossAvailableToCommonStockholdersDiluted": {
+              "value": "2505000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "NetIncomeLoss": {
+              "value": "1967000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "IncrementalCommonSharesAttributableToShareBasedPaymentArrangements": {
+              "value": "2653000",
+              "unit": "shares",
+              "decimals": "-3"
+            },
+            "EarningsPerShareBasic": {
+              "value": "7.77",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "WeightedAverageNumberOfSharesOutstandingBasic": {
+              "value": "253080000",
+              "unit": "shares",
+              "decimals": "-3"
+            },
+            "WeightedAverageNumberOfDilutedSharesOutstanding": {
+              "value": "326036000",
+              "unit": "shares",
+              "decimals": "-3"
+            }
+          },
+          "goog": {
+            "ReallocationOfUndistributedEarningsAsAResultOfConversionOfShares": {
+              "value": "538000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ReallocationOfUndistributedEarnings": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "IncrementalCommonSharesAttributableToConversionOfCommonStock": {
+              "value": "69148000",
+              "unit": "shares",
+              "decimals": "-3"
+            },
+            "IncrementalCommonSharesAttributableToRestrictedSharesAndRestrictedStockUnits": {
+              "value": "1155000",
+              "unit": "shares",
+              "decimals": "-3"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_91_20110630_0_476558x445966",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-04-01",
+            "endDate": "2011-06-30"
+          },
+          "us-gaap": {
+            "SalesRevenueNet": {
+              "value": "976000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_91_20110630_0_476558x446398",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-04-01",
+            "endDate": "2011-06-30"
+          },
+          "us-gaap": {
+            "SalesRevenueNet": {
+              "value": "4155000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_91_20110630_0_476558x469680",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-04-01",
+            "endDate": "2011-06-30"
+          },
+          "us-gaap": {
+            "SalesRevenueNet": {
+              "value": "3895000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_181_20110630_0_441306x445999",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-01-01",
+            "endDate": "2011-06-30"
+          },
+          "us-gaap": {
+            "DerivativeInstrumentsNotDesignatedAsHedgingInstrumentsGainLossNet": {
+              "value": "-9000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_181_20110630_0_441306x446623",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-01-01",
+            "endDate": "2011-06-30"
+          },
+          "goog": {
+            "DerivativeInstrumentsDesignatedAsFairValueHedgesGainLossNet": {
+              "value": "-6000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_181_20110630_0_441686x443293",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-01-01",
+            "endDate": "2011-06-30"
+          },
+          "us-gaap": {
+            "AllocatedShareBasedCompensationExpense": {
+              "value": "152000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_181_20110630_0_441686x453468",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-01-01",
+            "endDate": "2011-06-30"
+          },
+          "us-gaap": {
+            "AllocatedShareBasedCompensationExpense": {
+              "value": "100000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_181_20110630_0_441686x454085",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-01-01",
+            "endDate": "2011-06-30"
+          },
+          "us-gaap": {
+            "AllocatedShareBasedCompensationExpense": {
+              "value": "130000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_181_20110630_0_441686x456209",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-01-01",
+            "endDate": "2011-06-30"
+          },
+          "us-gaap": {
+            "AllocatedShareBasedCompensationExpense": {
+              "value": "484000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_181_20110630_0_441729x469899",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-01-01",
+            "endDate": "2011-06-30"
+          },
+          "us-gaap": {
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriodWeightedAverageGrantDateFairValue": {
+              "value": "514.50",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsGrantsInPeriod": {
+              "value": "4183387",
+              "unit": "shares",
+              "decimals": "INF"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsGrantsInPeriodWeightedAverageGrantDateFairValue": {
+              "value": "522.22",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriod": {
+              "value": "874111",
+              "unit": "shares",
+              "decimals": "INF"
+            },
+            "ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsForfeitedInPeriod": {
+              "value": "168250",
+              "unit": "shares",
+              "decimals": "INF"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_181_20110630_0_452537x483781",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-01-01",
+            "endDate": "2011-06-30"
+          },
+          "goog": {
+            "NumberOfOtherAcquisitionsAndPurchasesOfIntangibleAssetsCompletedDuringPeriod": {
+              "value": "29",
+              "unit": "Entity",
+              "decimals": "0"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_181_20110630_0_453257x447425",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-01-01",
+            "endDate": "2011-06-30"
+          },
+          "us-gaap": {
+            "EarningsPerShareDiluted": {
+              "value": "13.19",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "WeightedAverageNumberOfSharesIssuedBasic": {
+              "value": "69728000",
+              "unit": "shares",
+              "decimals": "-3"
+            },
+            "NetIncomeLossAvailableToCommonStockholdersDiluted": {
+              "value": "921000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "NetIncomeLoss": {
+              "value": "932000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "IncrementalCommonSharesAttributableToShareBasedPaymentArrangements": {
+              "value": "49000",
+              "unit": "shares",
+              "decimals": "-3"
+            },
+            "EarningsPerShareBasic": {
+              "value": "13.37",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "WeightedAverageNumberOfSharesOutstandingBasic": {
+              "value": "69728000",
+              "unit": "shares",
+              "decimals": "-3"
+            },
+            "WeightedAverageNumberOfDilutedSharesOutstanding": {
+              "value": "69777000",
+              "unit": "shares",
+              "decimals": "-3"
+            }
+          },
+          "goog": {
+            "ReallocationOfUndistributedEarningsAsAResultOfConversionOfShares": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ReallocationOfUndistributedEarnings": {
+              "value": "11000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "IncrementalCommonSharesAttributableToConversionOfCommonStock": {
+              "value": "0",
+              "unit": "shares",
+              "decimals": "-3"
+            },
+            "IncrementalCommonSharesAttributableToRestrictedSharesAndRestrictedStockUnits": {
+              "value": "0",
+              "unit": "shares",
+              "decimals": "-3"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_181_20110630_0_453257x450712",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-01-01",
+            "endDate": "2011-06-30"
+          },
+          "us-gaap": {
+            "EarningsPerShareDiluted": {
+              "value": "13.19",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "WeightedAverageNumberOfSharesIssuedBasic": {
+              "value": "252150000",
+              "unit": "shares",
+              "decimals": "-3"
+            },
+            "NetIncomeLossAvailableToCommonStockholdersDiluted": {
+              "value": "4304000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "NetIncomeLoss": {
+              "value": "3372000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "IncrementalCommonSharesAttributableToShareBasedPaymentArrangements": {
+              "value": "2990000",
+              "unit": "shares",
+              "decimals": "-3"
+            },
+            "EarningsPerShareBasic": {
+              "value": "13.37",
+              "unit": "iso4217_USD_per_shares",
+              "decimals": "2"
+            },
+            "WeightedAverageNumberOfSharesOutstandingBasic": {
+              "value": "252150000",
+              "unit": "shares",
+              "decimals": "-3"
+            },
+            "WeightedAverageNumberOfDilutedSharesOutstanding": {
+              "value": "326209000",
+              "unit": "shares",
+              "decimals": "-3"
+            }
+          },
+          "goog": {
+            "ReallocationOfUndistributedEarningsAsAResultOfConversionOfShares": {
+              "value": "932000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "ReallocationOfUndistributedEarnings": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "IncrementalCommonSharesAttributableToConversionOfCommonStock": {
+              "value": "69728000",
+              "unit": "shares",
+              "decimals": "-3"
+            },
+            "IncrementalCommonSharesAttributableToRestrictedSharesAndRestrictedStockUnits": {
+              "value": "1341000",
+              "unit": "shares",
+              "decimals": "-3"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_181_20110630_0_453782x453489",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-01-01",
+            "endDate": "2011-06-30"
+          },
+          "goog": {
+            "ShortTermDebtMaturityDate": "November 2011"
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_181_20110630_0_453782x473325",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-01-01",
+            "endDate": "2011-06-30"
+          },
+          "goog": {
+            "ShortTermDebtMaturityDate": "December 2011"
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_181_20110630_0_454115x450059",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-01-01",
+            "endDate": "2011-06-30"
+          },
+          "us-gaap": {
+            "AcquiredFiniteLivedIntangibleAssetWeightedAverageUsefulLife": {
+              "value": "7.9",
+              "unit": "Year",
+              "decimals": "1"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_181_20110630_0_454115x467648",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-01-01",
+            "endDate": "2011-06-30"
+          },
+          "us-gaap": {
+            "AcquiredFiniteLivedIntangibleAssetWeightedAverageUsefulLife": {
+              "value": "6.9",
+              "unit": "Year",
+              "decimals": "1"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_181_20110630_0_454115x467649",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-01-01",
+            "endDate": "2011-06-30"
+          },
+          "us-gaap": {
+            "AcquiredFiniteLivedIntangibleAssetWeightedAverageUsefulLife": {
+              "value": "3.2",
+              "unit": "Year",
+              "decimals": "1"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_181_20110630_0_454689x480412",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-01-01",
+            "endDate": "2011-06-30"
+          },
+          "us-gaap": {
+            "DebtInstrumentMaturityDate": "2014-05-19"
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_181_20110630_0_454689x480413",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-01-01",
+            "endDate": "2011-06-30"
+          },
+          "us-gaap": {
+            "DebtInstrumentMaturityDate": "2016-05-19"
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_181_20110630_0_454689x480414",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-01-01",
+            "endDate": "2011-06-30"
+          },
+          "us-gaap": {
+            "DebtInstrumentMaturityDate": "2021-05-19"
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_181_20110630_0_476558x445966",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-01-01",
+            "endDate": "2011-06-30"
+          },
+          "us-gaap": {
+            "SalesRevenueNet": {
+              "value": "1946000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_181_20110630_0_476558x446398",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-01-01",
+            "endDate": "2011-06-30"
+          },
+          "us-gaap": {
+            "SalesRevenueNet": {
+              "value": "8160000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_181_20110630_0_476558x469680",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-01-01",
+            "endDate": "2011-06-30"
+          },
+          "us-gaap": {
+            "SalesRevenueNet": {
+              "value": "7496000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_441306x445999_476481x467610",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "NotionalAmountOfForeignCurrencyDerivativeSaleContracts": {
+              "value": "1600000000",
+              "unit": "iso4217_USD",
+              "decimals": "-8"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_441306x445999_476481x467611",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "NotionalAmountOfForeignCurrencyDerivativeSaleContracts": {
+              "value": "1100000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_441306x445999_476481x467616",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "NotionalAmountOfForeignCurrencyDerivativePurchaseContracts": {
+              "value": "522000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_441306x445999_476481x469658",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "NotionalAmountOfForeignCurrencyDerivativePurchaseContracts": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_441306x446623_476481x467610",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "NotionalAmountOfForeignCurrencyDerivativeSaleContracts": {
+              "value": "1100000000",
+              "unit": "iso4217_USD",
+              "decimals": "-8"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_441306x451457_476481x467607",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "NotionalAmountOfForeignCurrencyDerivativeSaleContracts": {
+              "value": "3900000000",
+              "unit": "iso4217_USD",
+              "decimals": "-8"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_441306x451457_476481x467608",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "NotionalAmountOfForeignCurrencyDerivativeSaleContracts": {
+              "value": "2000000000",
+              "unit": "iso4217_USD",
+              "decimals": "-8"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_441306x451457_476481x467609",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "NotionalAmountOfForeignCurrencyDerivativeSaleContracts": {
+              "value": "315000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_441306x451457_476481x469684",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "DerivativeHigherRemainingMaturityRange": "36"
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_450407x454319_456497x442450",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "InvestmentsFairValueDisclosure": {
+              "value": "5594000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_450407x454319_456497x445395",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "InvestmentsFairValueDisclosure": {
+              "value": "7615000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_450407x454319_456497x447313",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "InvestmentsFairValueDisclosure": {
+              "value": "174000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_450407x454319_456497x449006",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "InvestmentsFairValueDisclosure": {
+              "value": "2083000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_450407x454319_456497x451793",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "CashAndCashEquivalentsFairValueDisclosure": {
+              "value": "479000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "InvestmentsFairValueDisclosure": {
+              "value": "382000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_450407x454319_456497x454985",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "InvestmentsFairValueDisclosure": {
+              "value": "2772000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_450407x454319_456497x455617",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "InvestmentsFairValueDisclosure": {
+              "value": "2905000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_450407x454319_456497x467656",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "CashAndCashEquivalentsFairValueDisclosure": {
+              "value": "3000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "InvestmentsFairValueDisclosure": {
+              "value": "7273000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_450407x454319_456497x470536",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "CashAndCashEquivalentsFairValueDisclosure": {
+              "value": "5491000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_450407x454319_476482x441954",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "AssetsFairValueDisclosure": {
+              "value": "22912000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "LiabilitiesFairValueDisclosure": {
+              "value": "1000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "DerivativeFinancialInstrumentsLiabilitiesFairValueDisclosure": {
+              "value": "1000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "DerivativeAssets": {
+              "value": "166000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          },
+          "goog": {
+            "AuctionRateSecuritiesAtFairValue": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_450407x454319_476482x452604",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "AssetsFairValueDisclosure": {
+              "value": "12025000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "LiabilitiesFairValueDisclosure": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "DerivativeFinancialInstrumentsLiabilitiesFairValueDisclosure": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "DerivativeAssets": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          },
+          "goog": {
+            "AuctionRateSecuritiesAtFairValue": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_450407x454319_476482x454206",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "AssetsFairValueDisclosure": {
+              "value": "126000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "LiabilitiesFairValueDisclosure": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "DerivativeFinancialInstrumentsLiabilitiesFairValueDisclosure": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "DerivativeAssets": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          },
+          "goog": {
+            "AuctionRateSecuritiesAtFairValue": {
+              "value": "126000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_452537x468974_454115x450059",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "BusinessAcquisitionPurchasePriceAllocationAmortizableIntangibleAssets": {
+              "value": "220000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_452537x468974_454115x467648",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "BusinessAcquisitionPurchasePriceAllocationAmortizableIntangibleAssets": {
+              "value": "158000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_452537x468974_454115x467649",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "BusinessAcquisitionPurchasePriceAllocationAmortizableIntangibleAssets": {
+              "value": "16000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_452537x469659_454115x450059",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "BusinessAcquisitionPurchasePriceAllocationAmortizableIntangibleAssets": {
+              "value": "4000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_452537x469659_454115x467648",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "BusinessAcquisitionPurchasePriceAllocationAmortizableIntangibleAssets": {
+              "value": "130000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_452537x469659_454115x467649",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "BusinessAcquisitionPurchasePriceAllocationAmortizableIntangibleAssets": {
+              "value": "9000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_454554x446389_456497x445395",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "CashAndCashEquivalentsAtCarryingValue": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_454554x446389_456497x449006",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "CashAndCashEquivalentsAtCarryingValue": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_454554x446389_456497x451793",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "CashAndCashEquivalentsAtCarryingValue": {
+              "value": "479000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_454554x446389_456497x467656",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "CashAndCashEquivalentsAtCarryingValue": {
+              "value": "3000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_454554x446389_456497x470536",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "CashAndCashEquivalentsAtCarryingValue": {
+              "value": "5491000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_91_20110630_0_441306x446623_446729x469706",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-04-01",
+            "endDate": "2011-06-30"
+          },
+          "us-gaap": {
+            "GainLossFromComponentsExcludedFromAssessmentOfFairValueHedgeEffectivenessNet": {
+              "value": "3000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_91_20110630_0_441306x451457_451532x447343",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-04-01",
+            "endDate": "2011-06-30"
+          },
+          "us-gaap": {
+            "DerivativeInstrumentsGainLossRecognizedInOtherComprehensiveIncomeEffectivePortionNet": {
+              "value": "-6000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_181_20110630_0_441306x446623_446729x469706",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-01-01",
+            "endDate": "2011-06-30"
+          },
+          "us-gaap": {
+            "GainLossFromComponentsExcludedFromAssessmentOfFairValueHedgeEffectivenessNet": {
+              "value": "6000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_181_20110630_0_441306x451457_451532x447343",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-01-01",
+            "endDate": "2011-06-30"
+          },
+          "us-gaap": {
+            "DerivativeInstrumentsGainLossRecognizedInOtherComprehensiveIncomeEffectivePortionNet": {
+              "value": "-115000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_449485x445999_452742x468981_456497x444433",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "DerivativeFairValueOfDerivativeLiability": {
+              "value": "1000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_449485x445999_452742x469685_456497x444433",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "DerivativeFairValueOfDerivativeAsset": {
+              "value": "1000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_449485x445999_452742x469685_456497x451591",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "DerivativeFairValueOfDerivativeAsset": {
+              "value": "1000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_449485x455587_452742x468981_456497x444433",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "DerivativeFairValueOfDerivativeLiability": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_449485x455587_452742x469685_456497x444433",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "DerivativeFairValueOfDerivativeAsset": {
+              "value": "7000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_449485x455587_452742x470294_456497x447343",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "DerivativeFairValueOfDerivativeAsset": {
+              "value": "157000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_450407x454319_456497x442450_476482x441954",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "InvestmentsFairValueDisclosure": {
+              "value": "5594000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_450407x454319_456497x442450_476482x452604",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "InvestmentsFairValueDisclosure": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_450407x454319_456497x442450_476482x454206",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "InvestmentsFairValueDisclosure": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_450407x454319_456497x445395_476482x441954",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "InvestmentsFairValueDisclosure": {
+              "value": "7615000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_450407x454319_456497x445395_476482x452604",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "InvestmentsFairValueDisclosure": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_450407x454319_456497x445395_476482x454206",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "InvestmentsFairValueDisclosure": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_450407x454319_456497x447313_476482x441954",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "InvestmentsFairValueDisclosure": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_450407x454319_456497x447313_476482x452604",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "InvestmentsFairValueDisclosure": {
+              "value": "174000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_450407x454319_456497x447313_476482x454206",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "InvestmentsFairValueDisclosure": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_450407x454319_456497x449006_476482x441954",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "InvestmentsFairValueDisclosure": {
+              "value": "2083000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_450407x454319_456497x449006_476482x452604",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "InvestmentsFairValueDisclosure": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_450407x454319_456497x449006_476482x454206",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "InvestmentsFairValueDisclosure": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_450407x454319_456497x451793_476482x441954",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "CashAndCashEquivalentsFairValueDisclosure": {
+              "value": "479000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "InvestmentsFairValueDisclosure": {
+              "value": "382000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_450407x454319_456497x451793_476482x452604",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "CashAndCashEquivalentsFairValueDisclosure": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "InvestmentsFairValueDisclosure": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_450407x454319_456497x451793_476482x454206",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "CashAndCashEquivalentsFairValueDisclosure": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "InvestmentsFairValueDisclosure": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_450407x454319_456497x454985_476482x441954",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "InvestmentsFairValueDisclosure": {
+              "value": "2772000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_450407x454319_456497x454985_476482x452604",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "InvestmentsFairValueDisclosure": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_450407x454319_456497x454985_476482x454206",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "InvestmentsFairValueDisclosure": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_450407x454319_456497x455617_476482x441954",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "InvestmentsFairValueDisclosure": {
+              "value": "2905000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_450407x454319_456497x455617_476482x452604",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "InvestmentsFairValueDisclosure": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_450407x454319_456497x455617_476482x454206",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "InvestmentsFairValueDisclosure": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_450407x454319_456497x467656_476482x441954",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "CashAndCashEquivalentsFairValueDisclosure": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "InvestmentsFairValueDisclosure": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_450407x454319_456497x467656_476482x452604",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "CashAndCashEquivalentsFairValueDisclosure": {
+              "value": "3000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "InvestmentsFairValueDisclosure": {
+              "value": "7273000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_450407x454319_456497x467656_476482x454206",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "CashAndCashEquivalentsFairValueDisclosure": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            },
+            "InvestmentsFairValueDisclosure": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_450407x454319_456497x470536_476482x441954",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "CashAndCashEquivalentsFairValueDisclosure": {
+              "value": "916000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_450407x454319_456497x470536_476482x452604",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "CashAndCashEquivalentsFairValueDisclosure": {
+              "value": "4575000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_0_20110630_0_450407x454319_456497x470536_476482x454206",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "instant": "2011-06-30"
+          },
+          "us-gaap": {
+            "CashAndCashEquivalentsFairValueDisclosure": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_91_20110630_0_441306x445999_446729x469706_451532x444433",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-04-01",
+            "endDate": "2011-06-30"
+          },
+          "us-gaap": {
+            "DerivativeInstrumentsNotDesignatedAsHedgingInstrumentsGainLossNet": {
+              "value": "-7000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_91_20110630_0_441306x445999_446729x469706_451532x451591",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-04-01",
+            "endDate": "2011-06-30"
+          },
+          "us-gaap": {
+            "DerivativeInstrumentsNotDesignatedAsHedgingInstrumentsGainLossNet": {
+              "value": "-9000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_91_20110630_0_441306x446623_446729x469706_451532x444433",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-04-01",
+            "endDate": "2011-06-30"
+          },
+          "goog": {
+            "DerivativeInstrumentsDesignatedAsFairValueHedgesGainLossNet": {
+              "value": "-21000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_91_20110630_0_441306x446623_446729x469706_451532x468991",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-04-01",
+            "endDate": "2011-06-30"
+          },
+          "goog": {
+            "DerivativeInstrumentsDesignatedAsFairValueHedgesGainLossNet": {
+              "value": "18000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_91_20110630_0_441306x451457_446729x443969_451532x447343",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-04-01",
+            "endDate": "2011-06-30"
+          },
+          "us-gaap": {
+            "DerivativeInstrumentsGainLossReclassifiedFromAccumulatedOCIIntoIncomeEffectivePortionNet": {
+              "value": "4000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_91_20110630_0_441306x451457_446729x469706_451532x447343",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-04-01",
+            "endDate": "2011-06-30"
+          },
+          "us-gaap": {
+            "DerivativeInstrumentsGainLossRecognizedInIncomeIneffectivePortionAndAmountExcludedFromEffectivenessTestingNet": {
+              "value": "-58000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_181_20110630_0_441306x445999_446729x469706_451532x444433",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-01-01",
+            "endDate": "2011-06-30"
+          },
+          "us-gaap": {
+            "DerivativeInstrumentsNotDesignatedAsHedgingInstrumentsGainLossNet": {
+              "value": "0",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_181_20110630_0_441306x445999_446729x469706_451532x451591",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-01-01",
+            "endDate": "2011-06-30"
+          },
+          "us-gaap": {
+            "DerivativeInstrumentsNotDesignatedAsHedgingInstrumentsGainLossNet": {
+              "value": "-9000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_181_20110630_0_441306x446623_446729x469706_451532x444433",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-01-01",
+            "endDate": "2011-06-30"
+          },
+          "goog": {
+            "DerivativeInstrumentsDesignatedAsFairValueHedgesGainLossNet": {
+              "value": "-59000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_181_20110630_0_441306x446623_446729x469706_451532x468991",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-01-01",
+            "endDate": "2011-06-30"
+          },
+          "goog": {
+            "DerivativeInstrumentsDesignatedAsFairValueHedgesGainLossNet": {
+              "value": "53000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_181_20110630_0_441306x451457_446729x443969_451532x447343",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-01-01",
+            "endDate": "2011-06-30"
+          },
+          "us-gaap": {
+            "DerivativeInstrumentsGainLossReclassifiedFromAccumulatedOCIIntoIncomeEffectivePortionNet": {
+              "value": "18000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        },
+        {
+          "id": "eol_PE633170--1110-Q0010_STD_181_20110630_0_441306x451457_446729x469706_451532x447343",
+          "entity": {
+            "identifier": "0001288776"
+          },
+          "period": {
+            "startDate": "2011-01-01",
+            "endDate": "2011-06-30"
+          },
+          "us-gaap": {
+            "DerivativeInstrumentsGainLossRecognizedInIncomeIneffectivePortionAndAmountExcludedFromEffectivenessTestingNet": {
+              "value": "-171000000",
+              "unit": "iso4217_USD",
+              "decimals": "-6"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
